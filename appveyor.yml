@@ -10,8 +10,6 @@ assembly_info:
   assembly_file_version: '{version}'
   assembly_informational_version: '{version}'
 
-environment:
-
 nuget:
   disable_publish_on_pr: true
 
@@ -30,8 +28,6 @@ after_build:
 
 test_script:
 - JeremyAnsel.IO.Locator\run-tests.cmd
-
-deploy:
 
 after_deploy:
 - cd
