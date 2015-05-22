@@ -1,0 +1,37 @@
+version: 1.0.{build}
+configuration: Release
+init:
+- if "%APPVEYOR_REPO_NAME%" == "JeremyAnsel/JeremyAnsel.IO.Locator" if "%APPVEYOR_REPO_BRANCH%"=="master" if not defined APPVEYOR_PULL_REQUEST_NUMBER set DEPLOY=True
+
+assembly_info:
+  patch: true
+  file: '**\AssemblyInfo.*'
+  assembly_version: 1.0.0
+  assembly_file_version: '{version}'
+  assembly_informational_version: '{version}'
+
+environment:
+
+nuget:
+  disable_publish_on_pr: true
+
+before_build:
+- nuget install EWSoftware.SHFB -o JeremyAnsel.IO.Locator\packages\
+- nuget restore JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator.sln
+
+build:
+  project: JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator.sln
+  publish_nuget: true
+  verbosity: minimal
+
+after_build:
+- if not defined APPVEYOR_PULL_REQUEST_NUMBER 7z a JeremyAnsel.IO.Locator.Documentation.zip .\JeremyAnsel.IO.Locator\Documentation\build\* > nul
+- if not defined APPVEYOR_PULL_REQUEST_NUMBER appveyor PushArtifact JeremyAnsel.IO.Locator.Documentation.zip
+
+test_script:
+- JeremyAnsel.IO.Locator\run-tests.cmd
+
+deploy:
+
+after_deploy:
+- cd
