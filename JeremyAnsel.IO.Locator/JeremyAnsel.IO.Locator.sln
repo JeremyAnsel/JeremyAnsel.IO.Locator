@@ -28,6 +28,8 @@ Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Documentation", "Documentat
 		{9F7756C9-BF0A-461A-B653-CACCFBADC89B} = {9F7756C9-BF0A-461A-B653-CACCFBADC89B}
 	EndProjectSection
 EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "DocumentationDependencies", "DocumentationDependencies\DocumentationDependencies.shfbproj", "{1B7EE4B8-849C-49E7-8E48-80297E1DA71E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,8 @@ Global
 		{57CF8079-3C8B-4282-9746-BB6791D1BCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{57CF8079-3C8B-4282-9746-BB6791D1BCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57CF8079-3C8B-4282-9746-BB6791D1BCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7EE4B8-849C-49E7-8E48-80297E1DA71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7EE4B8-849C-49E7-8E48-80297E1DA71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,23 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
-    <!-- NOTE: Update the version number in the path to match the package version -->
-    <SHFBROOT Condition=" '$(SHFBROOT)' == '' ">$(MSBuildThisFileDirectory)..\packages\EWSoftware.SHFB.2014.11.22.0\Tools\</SHFBROOT>
     <!-- The configuration and platform will be used to determine which assemblies to include from solution and
 				 project documentation sources -->
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>57cf8079-3c8b-4282-9746-bb6791d1bcd7</ProjectGuid>
+    <ProjectGuid>1b7ee4b8-849c-49e7-8e48-80297e1da71e</ProjectGuid>
     <SHFBSchemaVersion>1.9.9.0</SHFBSchemaVersion>
     <!-- AssemblyName, Name, and RootNamespace are not used by SHFB but Visual Studio adds them anyway -->
-    <AssemblyName>Documentation</AssemblyName>
-    <RootNamespace>Documentation</RootNamespace>
-    <Name>Documentation</Name>
+    <AssemblyName>DocumentationDependencies</AssemblyName>
+    <RootNamespace>DocumentationDependencies</RootNamespace>
+    <Name>DocumentationDependencies</Name>
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 4.0</FrameworkVersion>
-    <OutputPath>build\</OutputPath>
-    <HtmlHelpName>Documentation</HtmlHelpName>
+    <OutputPath>.\Help\</OutputPath>
+    <HtmlHelpName>DocumentationDependencies</HtmlHelpName>
     <Language>en-US</Language>
     <TransformComponentArguments>
       <Argument Key="logoFile" Value="Help.png" xmlns="" />
@@ -28,39 +26,16 @@
       <Argument Key="logoAlignment" Value="left" xmlns="" />
       <Argument Key="maxVersionParts" Value="" xmlns="" />
     </TransformComponentArguments>
+    <DocumentationSources>
+      <DocumentationSource sourceFile="..\packages\sharpcompress.0.10.3\lib\net40\SharpCompress.dll" xmlns="" />
+    </DocumentationSources>
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
-    <HelpFileFormat>Website</HelpFileFormat>
+    <HelpFileFormat>HtmlHelp1</HelpFileFormat>
     <IndentHtml>False</IndentHtml>
     <KeepLogFile>True</KeepLogFile>
     <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
     <CppCommentsFixup>False</CppCommentsFixup>
     <CleanIntermediates>True</CleanIntermediates>
-    <MaximumGroupParts>2</MaximumGroupParts>
-    <NamespaceGrouping>False</NamespaceGrouping>
-    <SyntaxFilters>Standard</SyntaxFilters>
-    <SdkLinkTarget>Blank</SdkLinkTarget>
-    <RootNamespaceContainer>False</RootNamespaceContainer>
-    <PresentationStyle>VS2013</PresentationStyle>
-    <Preliminary>False</Preliminary>
-    <NamingMethod>MemberName</NamingMethod>
-    <HelpTitle>JeremyAnsel.IO.Locator Documentation</HelpTitle>
-    <ContentPlacement>AboveNamespaces</ContentPlacement>
-    <CopyrightText>Copyright &amp;#169%3b 2015 J&amp;#233%3br&amp;#233%3bmy Ansel</CopyrightText>
-    <CopyrightHref>https://github.com/JeremyAnsel/JeremyAnsel.IO.Locator</CopyrightHref>
-    <MissingTags>Summary, Parameter, Returns, AutoDocumentCtors, TypeParameter, AutoDocumentDispose</MissingTags>
-    <DocumentationSources>
-      <DocumentationSource sourceFile="..\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator.csproj" />
-      <DocumentationSource sourceFile="..\JeremyAnsel.IO.DiscLocator\JeremyAnsel.IO.DiscLocator.csproj" />
-    </DocumentationSources>
-    <PlugInConfigurations>
-      <PlugInConfig id="Additional Reference Links" enabled="True">
-        <configuration>
-          <targets>
-            <target htmlSdkLinkType="None" help2SdkLinkType="Index" helpViewerSdkLinkType="Id" websiteSdkLinkType="None" helpFileProject="..\DocumentationDependencies\DocumentationDependencies.shfbproj" />
-          </targets>
-        </configuration>
-      </PlugInConfig>
-    </PlugInConfigurations>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
@@ -87,7 +62,7 @@
     <Folder Include="media" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Content\VersionHistory\v1.0.aml" />
+    <None Include="Content\VersionHistory\v1.0.0.0.aml" />
     <None Include="Content\VersionHistory\VersionHistory.aml" />
     <None Include="Content\Welcome.aml" />
   </ItemGroup>
