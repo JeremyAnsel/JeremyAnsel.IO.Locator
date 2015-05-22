@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="VersionHistory-v1_0" revisionNumber="1">
+  <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>
+        Release notes for the latest version 1.0.
+      </para>
+    </introduction>
+
+    <section>
+      <title>Changes in This Release</title>
+      <content>
+
+        <para>
+          Supported formats by <codeInline>FileLocatorFactory</codeInline>:
+        </para>
+
+        <list class="bullet">
+          <listItem>
+            <para>File system</para>
+          </listItem>
+          <listItem>
+            <para>Zip</para>
+          </listItem>
+          <listItem>
+            <para>Rar</para>
+          </listItem>
+          <listItem>
+            <para>Tar</para>
+          </listItem>
+          <listItem>
+            <para>7Zip</para>
+          </listItem>
+          <listItem>
+            <para>GZip</para>
+          </listItem>
+
+        </list>
+
+        <para>
+          Supported formats by <codeInline>DiscFileLocatorFactory</codeInline>:
+        </para>
+
+        <list class="bullet">
+          <listItem>
+            <para>Iso</para>
+          </listItem>
+          <listItem>
+            <para>Udf</para>
+          </listItem>
+
+        </list>
+
+      </content>
+    </section>
+
+    <relatedTopics>
+      <link xlink:href="VersionHistory" />
+    </relatedTopics>
+
+  </developerConceptualDocument>
+</topic>
