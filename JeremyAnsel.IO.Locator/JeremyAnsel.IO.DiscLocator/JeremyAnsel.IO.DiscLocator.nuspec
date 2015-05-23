@@ -12,6 +12,9 @@
     <description>$description$</description>
     <copyright>Copyright © 2015 Jérémy Ansel</copyright>
     <tags>IO File Disc Iso Udf</tags>
+    <dependencies>
+      <dependency id="JeremyAnsel.IO.Locator" version="$version$" />
+    </dependencies>
   </metadata>
   <files>
     <file src="..\..\LICENSE.txt" target="license.txt" />
