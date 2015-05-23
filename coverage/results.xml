@@ -2,7 +2,7 @@
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Summary numSequencePoints="609" visitedSequencePoints="123" numBranchPoints="473" visitedBranchPoints="73" sequenceCoverage="20.20" branchCoverage="15.43" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" />
   <Modules>
-    <Module hash="66-E6-1C-05-55-12-08-E8-00-14-0B-23-DE-C0-FC-AE-77-68-68-CA">
+    <Module hash="F6-57-D4-02-1E-B9-F0-66-3A-95-D6-60-45-A8-9A-35-67-19-E5-A0">
       <Summary numSequencePoints="261" visitedSequencePoints="117" numBranchPoints="197" visitedBranchPoints="67" sequenceCoverage="44.83" branchCoverage="34.01" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" />
       <FullName>C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator.Tests\bin\Release\JeremyAnsel.IO.Locator.dll</FullName>
       <ModuleName>JeremyAnsel.IO.Locator</ModuleName>
@@ -1250,7 +1250,7 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="66-E6-1C-05-55-12-08-E8-00-14-0B-23-DE-C0-FC-AE-77-68-68-CA">
+    <Module hash="F6-57-D4-02-1E-B9-F0-66-3A-95-D6-60-45-A8-9A-35-67-19-E5-A0">
       <Summary numSequencePoints="261" visitedSequencePoints="0" numBranchPoints="197" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" />
       <FullName>C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.DiscLocator.Tests\bin\Release\JeremyAnsel.IO.Locator.dll</FullName>
       <ModuleName>JeremyAnsel.IO.Locator</ModuleName>
@@ -2498,7 +2498,7 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="73-7B-26-84-B7-DA-E7-E7-35-4A-6E-7F-F0-DB-A7-45-25-38-DE-1E">
+    <Module hash="AC-67-75-10-BC-7A-57-D3-07-7B-D6-9C-0C-0A-26-6E-07-55-B3-8F">
       <Summary numSequencePoints="87" visitedSequencePoints="6" numBranchPoints="79" visitedBranchPoints="6" sequenceCoverage="6.90" branchCoverage="7.59" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" />
       <FullName>C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.DiscLocator.Tests\bin\Release\JeremyAnsel.IO.DiscLocator.dll</FullName>
       <ModuleName>JeremyAnsel.IO.DiscLocator</ModuleName>
