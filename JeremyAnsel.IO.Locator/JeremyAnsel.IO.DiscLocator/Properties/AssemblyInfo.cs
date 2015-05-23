@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
 [assembly: AssemblyTitle("JeremyAnsel.IO.DiscLocator")]
-[assembly: AssemblyDescription("Disc file locator")]
+[assembly: AssemblyDescription("A library to abstract file access to disc images. Supports Iso, Udf.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jérémy Ansel")]
 [assembly: AssemblyProduct("JeremyAnsel.IO.DiscLocator")]
