@@ -1,7 +1,30 @@
 # JeremyAnsel.IO.Locator
 
+[![Build status](https://ci.appveyor.com/api/projects/status/k287tlr4vk3bs5c5/branch/master?svg=true)](https://ci.appveyor.com/project/JeremyAnsel/jeremyansel-io-locator/branch/master)
+
+JeremyAnsel.IO.Locator:
+[![NuGet Version](https://img.shields.io/nuget/v/JeremyAnsel.IO.Locator.svg)](https://www.nuget.org/packages/JeremyAnsel.IO.Locator)
+[![NuGet Status](http://nugetstatus.com/JeremyAnsel.IO.Locator.png)](http://nugetstatus.com/packages/JeremyAnsel.IO.Locator)
+
+JeremyAnsel.IO.DiskLocator:
+[![NuGet Version](https://img.shields.io/nuget/v/JeremyAnsel.IO.DiskLocator.svg)](https://www.nuget.org/packages/JeremyAnsel.IO.DiskLocator)
+[![NuGet Status](http://nugetstatus.com/JeremyAnsel.IO.DiskLocator.png)](http://nugetstatus.com/packages/JeremyAnsel.IO.DiskLocator)
+
 JeremyAnsel.IO.Locator is a library to abstract file access to file system, compressed archives and disc images.
 
+Description     | Value
+----------------|----------------
+License         | [The MIT License (MIT)](https://github.com/JeremyAnsel/JeremyAnsel.IO.Locator/blob/master/LICENSE.txt)
+Web site        | http://jeremyansel.github.io/JeremyAnsel.IO.Locator
+Documentation   | http://jeremyansel.github.io/JeremyAnsel.IO.Locator/doc/
+Code coverage   | https://jeremyansel.github.io/JeremyAnsel.IO.Locator/coverage/
+Source code     | https://github.com/JeremyAnsel/JeremyAnsel.IO.Locator
+Nuget           | https://www.nuget.org/packages/JeremyAnsel.IO.Locator
+                | https://www.nuget.org/packages/JeremyAnsel.IO.DiskLocator
+Build           | https://ci.appveyor.com/project/JeremyAnsel/jeremyansel-io-locator/branch/master
+
 The supported formats by `FileLocatorFactory` are: file system, Zip, Rar, Tar, 7Zip, GZip.
+[SharpCompress](https://github.com/adamhathcock/sharpcompress) is used to provide support for compressed archives.
 
 The supported formats by `DiscLocatorFactory` are: Iso, Udf.
+[DiscUtils](https://discutils.codeplex.com/) is used ti provide support for disk images.
