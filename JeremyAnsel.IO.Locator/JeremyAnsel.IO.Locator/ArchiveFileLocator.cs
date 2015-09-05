@@ -102,7 +102,7 @@ namespace JeremyAnsel.IO.Locator
                     continue;
                 }
 
-                if (Utilities.PathEquals(entry.FilePath, path))
+                if (Utilities.PathEquals(entry.Key, path))
                 {
                     return true;
                 }
@@ -130,7 +130,7 @@ namespace JeremyAnsel.IO.Locator
                     continue;
                 }
 
-                if (Utilities.PathEquals(entry.FilePath, path))
+                if (Utilities.PathEquals(entry.Key, path))
                 {
                     return entry.OpenEntryStream();
                 }
@@ -162,9 +162,9 @@ namespace JeremyAnsel.IO.Locator
                     continue;
                 }
 
-                if (Utilities.PathStartsWith(entry.FilePath, root))
+                if (Utilities.PathStartsWith(entry.Key, root))
                 {
-                    yield return Utilities.PathNormalize(entry.FilePath);
+                    yield return Utilities.PathNormalize(entry.Key);
                 }
             }
         }
