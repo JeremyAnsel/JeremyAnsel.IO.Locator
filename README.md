@@ -1,6 +1,7 @@
 # JeremyAnsel.IO.Locator
 
 [![Build status](https://ci.appveyor.com/api/projects/status/k287tlr4vk3bs5c5/branch/master?svg=true)](https://ci.appveyor.com/project/JeremyAnsel/jeremyansel-io-locator/branch/master)
+[![Code coverage](https://jeremyansel.github.io/JeremyAnsel.IO.Locator/coverage/badge_combined.svg)](https://jeremyansel.github.io/JeremyAnsel.IO.Locator/coverage/)
 
 JeremyAnsel.IO.Locator:
 [![NuGet Version](https://img.shields.io/nuget/v/JeremyAnsel.IO.Locator.svg)](https://www.nuget.org/packages/JeremyAnsel.IO.Locator)
