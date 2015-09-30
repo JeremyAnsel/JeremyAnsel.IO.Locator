@@ -38,6 +38,12 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Properties\sgKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DiscUtils, Version=0.11.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Discutils.0.11.0.2\lib\net40\DiscUtils.dll</HintPath>
@@ -60,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\sgKey.snk" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator.csproj">
