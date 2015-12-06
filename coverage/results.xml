@@ -2,7 +2,7 @@
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Summary numSequencePoints="609" visitedSequencePoints="123" numBranchPoints="473" visitedBranchPoints="73" sequenceCoverage="20.20" branchCoverage="15.43" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" visitedClasses="11" numClasses="28" visitedMethods="27" numMethods="131" />
   <Modules>
-    <Module hash="8C-DD-1A-C9-A4-16-27-24-C8-B2-B0-A8-35-AA-2F-90-EC-72-B4-33">
+    <Module hash="5F-13-D8-1D-14-0D-56-D9-30-ED-A4-87-0A-FA-31-FA-DD-A9-06-3A">
       <Summary numSequencePoints="261" visitedSequencePoints="117" numBranchPoints="197" visitedBranchPoints="67" sequenceCoverage="44.83" branchCoverage="34.01" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" visitedClasses="8" numClasses="11" visitedMethods="24" numMethods="51" />
       <FullName>C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator.Tests\bin\Release\JeremyAnsel.IO.Locator.dll</FullName>
       <ModuleName>JeremyAnsel.IO.Locator</ModuleName>
@@ -1250,7 +1250,7 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="70-10-4A-89-D0-B4-E2-E4-CB-70-8E-34-81-60-08-3B-07-6A-DA-FD">
+    <Module hash="26-6F-85-6E-0D-19-93-C4-E9-AF-5C-18-F7-79-14-55-2A-E4-87-8E">
       <Summary numSequencePoints="87" visitedSequencePoints="6" numBranchPoints="79" visitedBranchPoints="6" sequenceCoverage="6.90" branchCoverage="7.59" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" visitedClasses="3" numClasses="6" visitedMethods="3" numMethods="29" />
       <FullName>C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.DiscLocator.Tests\bin\Release\JeremyAnsel.IO.DiscLocator.dll</FullName>
       <ModuleName>JeremyAnsel.IO.DiscLocator</ModuleName>
@@ -1812,7 +1812,7 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="8C-DD-1A-C9-A4-16-27-24-C8-B2-B0-A8-35-AA-2F-90-EC-72-B4-33">
+    <Module hash="5F-13-D8-1D-14-0D-56-D9-30-ED-A4-87-0A-FA-31-FA-DD-A9-06-3A">
       <Summary numSequencePoints="261" visitedSequencePoints="0" numBranchPoints="197" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" visitedClasses="0" numClasses="11" visitedMethods="0" numMethods="51" />
       <FullName>C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.DiscLocator.Tests\bin\Release\JeremyAnsel.IO.Locator.dll</FullName>
       <ModuleName>JeremyAnsel.IO.Locator</ModuleName>
