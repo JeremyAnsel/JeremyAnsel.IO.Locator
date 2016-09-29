@@ -40,10 +40,11 @@
     <StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>Properties\sgKey.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SharpCompress, Version=0.13.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -56,6 +57,7 @@
     <Compile Include="ArchiveFileLocator.cs" />
     <Compile Include="ArchiveWritableFileLocator.cs" />
     <Compile Include="FileLocatorFactory.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="IFileLocator.cs" />
     <Compile Include="IWritableFileLocator.cs" />
     <Compile Include="MemoryFileLocator.cs" />
@@ -67,7 +69,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Properties\sgKey.snk" />
   </ItemGroup>
   <ItemGroup>
     <CodeAnalysisDictionary Include="..\CustomDictionary.xml">
