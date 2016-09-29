@@ -11,7 +11,6 @@ namespace JeremyAnsel.IO.Locator
     using System.Diagnostics.CodeAnalysis;
     using System.IO;
     using SharpCompress.Common;
-    using SharpCompress.Compressor.Deflate;
 
     /// <summary>
     /// A factory to create a writable file locator.
@@ -41,10 +40,10 @@ namespace JeremyAnsel.IO.Locator
                 switch (ext.ToLowerInvariant())
                 {
                     case ".zip":
-                        return new ArchiveWritableFileLocator(root, ArchiveType.Zip, CompressionType.Deflate, CompressionLevel.BestCompression);
+                        return new ArchiveWritableFileLocator(root, ArchiveType.Zip, CompressionType.Deflate);
 
                     case ".gz":
-                        return new ArchiveWritableFileLocator(root, ArchiveType.GZip, CompressionType.GZip, CompressionLevel.Default);
+                        return new ArchiveWritableFileLocator(root, ArchiveType.GZip, CompressionType.GZip);
 
                     default:
                         throw new NotSupportedException();
@@ -68,7 +67,7 @@ namespace JeremyAnsel.IO.Locator
                 throw new ArgumentNullException("root");
             }
 
-            return new ArchiveWritableFileLocator(root, archiveType, compressionType, CompressionLevel.Default);
+            return new ArchiveWritableFileLocator(root, archiveType, compressionType);
         }
 
         /// <summary>
@@ -76,16 +75,15 @@ namespace JeremyAnsel.IO.Locator
         /// </summary>
         /// <param name="root">The root path.</param>
         /// <param name="archiveType">The archive type.</param>
-        /// <param name="compressionLevel">The compression level.</param>
         /// <returns>A writable file locator.</returns>
-        public static IWritableFileLocator CreateArchive(string root, ArchiveType archiveType, CompressionLevel compressionLevel)
+        public static IWritableFileLocator CreateArchive(string root, ArchiveType archiveType)
         {
             if (string.IsNullOrEmpty(root))
             {
                 throw new ArgumentNullException("root");
             }
 
-            return new ArchiveWritableFileLocator(root, archiveType, CompressionType.Deflate, compressionLevel);
+            return new ArchiveWritableFileLocator(root, archiveType, CompressionType.Deflate);
         }
 
         /// <summary>
@@ -102,7 +100,7 @@ namespace JeremyAnsel.IO.Locator
                 throw new ArgumentNullException("root");
             }
 
-            return new ArchiveWritableFileLocator(root, archiveType, compressionType, CompressionLevel.Default);
+            return new ArchiveWritableFileLocator(root, archiveType, compressionType);
         }
 
         /// <summary>
@@ -110,16 +108,15 @@ namespace JeremyAnsel.IO.Locator
         /// </summary>
         /// <param name="root">A stream.</param>
         /// <param name="archiveType">The archive type.</param>
-        /// <param name="compressionLevel">The compression level.</param>
         /// <returns>A writable file locator.</returns>
-        public static IWritableFileLocator CreateArchive(Stream root, ArchiveType archiveType, CompressionLevel compressionLevel)
+        public static IWritableFileLocator CreateArchive(Stream root, ArchiveType archiveType)
         {
             if (root == null)
             {
                 throw new ArgumentNullException("root");
             }
 
-            return new ArchiveWritableFileLocator(root, archiveType, CompressionType.Deflate, compressionLevel);
+            return new ArchiveWritableFileLocator(root, archiveType, CompressionType.Deflate);
         }
     }
 }

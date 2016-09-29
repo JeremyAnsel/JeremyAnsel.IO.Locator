@@ -11,8 +11,7 @@ namespace JeremyAnsel.IO.Locator
     using System.Collections.Generic;
     using System.IO;
     using SharpCompress.Common;
-    using SharpCompress.Compressor.Deflate;
-    using SharpCompress.Writer;
+    using SharpCompress.Writers;
 
     /// <summary>
     /// A writable archive file locator.
@@ -40,8 +39,7 @@ namespace JeremyAnsel.IO.Locator
         /// <param name="root">The root path.</param>
         /// <param name="archiveType">The archive type.</param>
         /// <param name="compressionType">The compression type.</param>
-        /// <param name="compressionLevel">The compression level.</param>
-        public ArchiveWritableFileLocator(string root, ArchiveType archiveType, CompressionType compressionType, CompressionLevel compressionLevel)
+        public ArchiveWritableFileLocator(string root, ArchiveType archiveType, CompressionType compressionType)
         {
             this.keys = new SortedSet<string>();
 
@@ -66,7 +64,7 @@ namespace JeremyAnsel.IO.Locator
                 }
 
                 this.fileStream = File.OpenWrite(root);
-                this.archive = WriterFactory.Open(this.fileStream, archiveType, new CompressionInfo { Type = compressionType, DeflateCompressionLevel = compressionLevel });
+                this.archive = WriterFactory.Open(this.fileStream, archiveType, new WriterOptions(compressionType));
 
                 if (!memory.IsEmpty)
                 {
@@ -81,12 +79,11 @@ namespace JeremyAnsel.IO.Locator
         /// <param name="root">A stream.</param>
         /// <param name="archiveType">The archive type.</param>
         /// <param name="compressionType">The compression type.</param>
-        /// <param name="compressionLevel">The compression level.</param>
-        public ArchiveWritableFileLocator(Stream root, ArchiveType archiveType, CompressionType compressionType, CompressionLevel compressionLevel)
+        public ArchiveWritableFileLocator(Stream root, ArchiveType archiveType, CompressionType compressionType)
         {
             this.keys = new SortedSet<string>();
 
-            this.archive = WriterFactory.Open(root, archiveType, new CompressionInfo { Type = compressionType, DeflateCompressionLevel = compressionLevel });
+            this.archive = WriterFactory.Open(root, archiveType, new WriterOptions(compressionType));
         }
 
         /// <summary>

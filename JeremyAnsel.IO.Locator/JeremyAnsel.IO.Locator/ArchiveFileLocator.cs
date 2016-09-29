@@ -10,7 +10,7 @@ namespace JeremyAnsel.IO.Locator
     using System;
     using System.Collections.Generic;
     using System.IO;
-    using SharpCompress.Archive;
+    using SharpCompress.Archives;
 
     /// <summary>
     /// An archive file locator.
