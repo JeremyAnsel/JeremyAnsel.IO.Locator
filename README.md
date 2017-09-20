@@ -21,7 +21,7 @@ Documentation   | http://jeremyansel.github.io/JeremyAnsel.IO.Locator/doc/
 Code coverage   | https://jeremyansel.github.io/JeremyAnsel.IO.Locator/coverage/
 Source code     | https://github.com/JeremyAnsel/JeremyAnsel.IO.Locator
 Nuget           | https://www.nuget.org/packages/JeremyAnsel.IO.Locator
-                | https://www.nuget.org/packages/JeremyAnsel.IO.DiscLocator
+Nuget           | https://www.nuget.org/packages/JeremyAnsel.IO.DiscLocator
 Build           | https://ci.appveyor.com/project/JeremyAnsel/jeremyansel-io-locator/branch/master
 
 The supported formats by `FileLocatorFactory` are: file system, Zip, Rar, Tar, 7Zip, GZip.
