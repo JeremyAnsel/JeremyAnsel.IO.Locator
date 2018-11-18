@@ -28,4 +28,4 @@ The supported formats by `FileLocatorFactory` are: file system, Zip, Rar, Tar, 7
 [SharpCompress](https://github.com/adamhathcock/sharpcompress) is used to provide support for compressed archives.
 
 The supported formats by `DiscLocatorFactory` are: Iso, Udf.
-[DiscUtils](https://discutils.codeplex.com/) is used to provide support for disc images.
+[DiscUtils](https://github.com/discutils/discutils) is used to provide support for disc images.

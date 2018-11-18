@@ -40,19 +40,26 @@
     <StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>Properties\sgKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DiscUtils, Version=0.11.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Discutils.0.11.0.2\lib\net40\DiscUtils.dll</HintPath>
+    <Reference Include="DiscUtils.Core, Version=0.13.0.0, Culture=neutral, PublicKeyToken=5fa5b410cc9c6289, processorArchitecture=MSIL">
+      <HintPath>..\packages\DiscUtils.Core.0.13.0-alpha\lib\net40\DiscUtils.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DiscUtils.Common, Version=0.11.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Discutils.0.11.0.2\lib\net40\DiscUtils.Common.dll</HintPath>
+    <Reference Include="DiscUtils.Iso9660, Version=0.13.0.0, Culture=neutral, PublicKeyToken=5fa5b410cc9c6289, processorArchitecture=MSIL">
+      <HintPath>..\packages\DiscUtils.Iso9660.0.13.0-alpha\lib\net40\DiscUtils.Iso9660.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DiscUtils.Streams, Version=0.13.0.0, Culture=neutral, PublicKeyToken=5fa5b410cc9c6289, processorArchitecture=MSIL">
+      <HintPath>..\packages\DiscUtils.Streams.0.13.0-alpha\lib\net40\DiscUtils.Streams.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DiscUtils.Udf, Version=0.13.0.0, Culture=neutral, PublicKeyToken=5fa5b410cc9c6289, processorArchitecture=MSIL">
+      <HintPath>..\packages\DiscUtils.Udf.0.13.0-alpha\lib\net40\DiscUtils.Udf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -68,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\sgKey.snk" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator.csproj">
