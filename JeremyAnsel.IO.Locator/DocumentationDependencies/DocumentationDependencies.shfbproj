@@ -29,7 +29,7 @@
       <Argument Key="maxVersionParts" Value="" xmlns="" />
     </TransformComponentArguments>
     <DocumentationSources>
-      <DocumentationSource sourceFile="..\packages\SharpCompress.0.23.0\lib\net35\SharpCompress.dll" />
+      <DocumentationSource sourceFile="..\packages\SharpCompress.0.24.0\lib\net35\SharpCompress.dll" />
     </DocumentationSources>
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
     <HelpFileFormat>HtmlHelp1</HelpFileFormat>

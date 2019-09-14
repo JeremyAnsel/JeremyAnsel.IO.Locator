@@ -46,20 +46,20 @@
     <AssemblyOriginatorKeyFile>Properties\sgKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DiscUtils.Core, Version=0.14.2.0, Culture=neutral, PublicKeyToken=5fa5b410cc9c6289, processorArchitecture=MSIL">
-      <HintPath>..\packages\DiscUtils.Core.0.14.2-alpha\lib\net40\DiscUtils.Core.dll</HintPath>
+    <Reference Include="DiscUtils.Core, Version=0.15.1.0, Culture=neutral, PublicKeyToken=5fa5b410cc9c6289, processorArchitecture=MSIL">
+      <HintPath>..\packages\DiscUtils.Core.0.15.1-ci0002\lib\net40\DiscUtils.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DiscUtils.Iso9660, Version=0.14.2.0, Culture=neutral, PublicKeyToken=5fa5b410cc9c6289, processorArchitecture=MSIL">
-      <HintPath>..\packages\DiscUtils.Iso9660.0.14.2-alpha\lib\net40\DiscUtils.Iso9660.dll</HintPath>
+    <Reference Include="DiscUtils.Iso9660, Version=0.15.1.0, Culture=neutral, PublicKeyToken=5fa5b410cc9c6289, processorArchitecture=MSIL">
+      <HintPath>..\packages\DiscUtils.Iso9660.0.15.1-ci0002\lib\net40\DiscUtils.Iso9660.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DiscUtils.Streams, Version=0.14.2.0, Culture=neutral, PublicKeyToken=5fa5b410cc9c6289, processorArchitecture=MSIL">
-      <HintPath>..\packages\DiscUtils.Streams.0.14.2-alpha\lib\net40\DiscUtils.Streams.dll</HintPath>
+    <Reference Include="DiscUtils.Streams, Version=0.15.1.0, Culture=neutral, PublicKeyToken=5fa5b410cc9c6289, processorArchitecture=MSIL">
+      <HintPath>..\packages\DiscUtils.Streams.0.15.1-ci0002\lib\net40\DiscUtils.Streams.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DiscUtils.Udf, Version=0.14.2.0, Culture=neutral, PublicKeyToken=5fa5b410cc9c6289, processorArchitecture=MSIL">
-      <HintPath>..\packages\DiscUtils.Udf.0.14.2-alpha\lib\net40\DiscUtils.Udf.dll</HintPath>
+    <Reference Include="DiscUtils.Udf, Version=0.15.1.0, Culture=neutral, PublicKeyToken=5fa5b410cc9c6289, processorArchitecture=MSIL">
+      <HintPath>..\packages\DiscUtils.Udf.0.15.1-ci0002\lib\net40\DiscUtils.Udf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
