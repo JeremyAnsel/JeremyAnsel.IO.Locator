@@ -2,13 +2,13 @@
 <HelpTOC>
 
   <HelpTOCNode Title="Welcome" Url="html/Welcome.htm" />
-  <HelpTOCNode Id="2aca06dd-6719-4b4a-bc24-be997388e57a" Title="Version History" Url="html/VersionHistory.htm">
+  <HelpTOCNode Id="97f19936-ec40-457c-a8d1-408bec0ceb4d" Title="Version History" Url="html/VersionHistory.htm">
     <HelpTOCNode Title="Version 1.0" Url="html/VersionHistory-v1_0.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="c3addd92-8ddb-42f6-b156-9f4c44417558" Title="JeremyAnsel.IO.DiscLocator" Url="html/N_JeremyAnsel_IO_DiscLocator.htm">
-    <HelpTOCNode Id="fb1a36a7-e444-4c7c-afe7-a84ed0ba4e3a" Title="DiscFileLocatorFactory Class" Url="html/T_JeremyAnsel_IO_DiscLocator_DiscFileLocatorFactory.htm">
-      <HelpTOCNode Id="3dea44e3-ba74-499a-82f2-1f267fcaebbb" Title="DiscFileLocatorFactory Methods" Url="html/Methods_T_JeremyAnsel_IO_DiscLocator_DiscFileLocatorFactory.htm">
-        <HelpTOCNode Id="0a119dbb-7c47-491e-bac1-05a526bc0b36" Title="Create Method " Url="html/Overload_JeremyAnsel_IO_DiscLocator_DiscFileLocatorFactory_Create.htm">
+  <HelpTOCNode Id="5325d247-ccbe-4852-b9c3-df8ea302471e" Title="JeremyAnsel.IO.DiscLocator" Url="html/N_JeremyAnsel_IO_DiscLocator.htm">
+    <HelpTOCNode Id="57e684d5-111b-416e-957c-74e570862f07" Title="DiscFileLocatorFactory Class" Url="html/T_JeremyAnsel_IO_DiscLocator_DiscFileLocatorFactory.htm">
+      <HelpTOCNode Id="555162b7-53ac-4135-837d-4d75d97a864f" Title="DiscFileLocatorFactory Methods" Url="html/Methods_T_JeremyAnsel_IO_DiscLocator_DiscFileLocatorFactory.htm">
+        <HelpTOCNode Id="a3f22622-bcbd-437f-9d86-cde9dd9375aa" Title="Create Method " Url="html/Overload_JeremyAnsel_IO_DiscLocator_DiscFileLocatorFactory_Create.htm">
           <HelpTOCNode Title="Create Method (Stream)" Url="html/M_JeremyAnsel_IO_DiscLocator_DiscFileLocatorFactory_Create_1.htm" />
           <HelpTOCNode Title="Create Method (String)" Url="html/M_JeremyAnsel_IO_DiscLocator_DiscFileLocatorFactory_Create_2.htm" />
           <HelpTOCNode Title="Create Method (IFileLocator, String)" Url="html/M_JeremyAnsel_IO_DiscLocator_DiscFileLocatorFactory_Create.htm" />
@@ -16,19 +16,19 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="46ce944c-4668-4be1-8f75-16597ef881ee" Title="JeremyAnsel.IO.Locator" Url="html/N_JeremyAnsel_IO_Locator.htm">
-    <HelpTOCNode Id="0dd5215e-91f1-421f-91cc-36dd449f853e" Title="FileLocatorFactory Class" Url="html/T_JeremyAnsel_IO_Locator_FileLocatorFactory.htm">
-      <HelpTOCNode Id="1f558f8a-82e1-4f01-90ea-8cae23b46501" Title="FileLocatorFactory Methods" Url="html/Methods_T_JeremyAnsel_IO_Locator_FileLocatorFactory.htm">
-        <HelpTOCNode Id="5b7899b4-ee60-4599-b59a-586206b31bf8" Title="Create Method " Url="html/Overload_JeremyAnsel_IO_Locator_FileLocatorFactory_Create.htm">
+  <HelpTOCNode Id="6acf95c2-5fd1-4487-a9b9-ba41ea9d34c9" Title="JeremyAnsel.IO.Locator" Url="html/N_JeremyAnsel_IO_Locator.htm">
+    <HelpTOCNode Id="4d6b8297-225b-4bfa-9090-8cded03e014d" Title="FileLocatorFactory Class" Url="html/T_JeremyAnsel_IO_Locator_FileLocatorFactory.htm">
+      <HelpTOCNode Id="d8f86f48-96e2-4493-9c3d-a7219e6c0f5c" Title="FileLocatorFactory Methods" Url="html/Methods_T_JeremyAnsel_IO_Locator_FileLocatorFactory.htm">
+        <HelpTOCNode Id="a9399992-28e1-41f5-83f3-0b2736ba446e" Title="Create Method " Url="html/Overload_JeremyAnsel_IO_Locator_FileLocatorFactory_Create.htm">
           <HelpTOCNode Title="Create Method (Stream)" Url="html/M_JeremyAnsel_IO_Locator_FileLocatorFactory_Create_1.htm" />
           <HelpTOCNode Title="Create Method (String)" Url="html/M_JeremyAnsel_IO_Locator_FileLocatorFactory_Create_2.htm" />
           <HelpTOCNode Title="Create Method (IFileLocator, String)" Url="html/M_JeremyAnsel_IO_Locator_FileLocatorFactory_Create.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="91367af4-bc64-4915-9670-f21c0565bbaf" Title="IFileLocator Interface" Url="html/T_JeremyAnsel_IO_Locator_IFileLocator.htm">
-      <HelpTOCNode Id="cb7cc3a5-e0ba-4c7c-b29e-2c727b3d6282" Title="IFileLocator Methods" Url="html/Methods_T_JeremyAnsel_IO_Locator_IFileLocator.htm">
-        <HelpTOCNode Id="18e9b294-5a5c-4b92-96d3-1ff0e99be932" Title="EnumerateFiles Method " Url="html/Overload_JeremyAnsel_IO_Locator_IFileLocator_EnumerateFiles.htm">
+    <HelpTOCNode Id="2663cb01-fb4f-47b1-a9fb-a196a9206d99" Title="IFileLocator Interface" Url="html/T_JeremyAnsel_IO_Locator_IFileLocator.htm">
+      <HelpTOCNode Id="400e89ab-0a4b-496c-817e-b1ea76f5b74c" Title="IFileLocator Methods" Url="html/Methods_T_JeremyAnsel_IO_Locator_IFileLocator.htm">
+        <HelpTOCNode Id="f11a3a92-370d-4791-82ea-dbc92faa84e1" Title="EnumerateFiles Method " Url="html/Overload_JeremyAnsel_IO_Locator_IFileLocator_EnumerateFiles.htm">
           <HelpTOCNode Title="EnumerateFiles Method " Url="html/M_JeremyAnsel_IO_Locator_IFileLocator_EnumerateFiles.htm" />
           <HelpTOCNode Title="EnumerateFiles Method (String)" Url="html/M_JeremyAnsel_IO_Locator_IFileLocator_EnumerateFiles_1.htm" />
         </HelpTOCNode>
@@ -36,42 +36,42 @@
         <HelpTOCNode Title="Open Method " Url="html/M_JeremyAnsel_IO_Locator_IFileLocator_Open.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="56fce01b-03af-4156-bab8-d1761c54377b" Title="IWritableFileLocator Interface" Url="html/T_JeremyAnsel_IO_Locator_IWritableFileLocator.htm">
-      <HelpTOCNode Id="d6ca8b31-1824-4b56-ab92-e0899f9ef02b" Title="IWritableFileLocator Methods" Url="html/Methods_T_JeremyAnsel_IO_Locator_IWritableFileLocator.htm">
+    <HelpTOCNode Id="83b6ffb7-80e8-4709-8f45-f4c25b7296f4" Title="IWritableFileLocator Interface" Url="html/T_JeremyAnsel_IO_Locator_IWritableFileLocator.htm">
+      <HelpTOCNode Id="2eb88b44-1e79-44ba-b474-51f2fc46b689" Title="IWritableFileLocator Methods" Url="html/Methods_T_JeremyAnsel_IO_Locator_IWritableFileLocator.htm">
         <HelpTOCNode Title="Create Method " Url="html/M_JeremyAnsel_IO_Locator_IWritableFileLocator_Create.htm" />
         <HelpTOCNode Title="Write Method " Url="html/M_JeremyAnsel_IO_Locator_IWritableFileLocator_Write.htm" />
-        <HelpTOCNode Id="34ac8479-86b8-424f-ba18-97c825fb35b0" Title="WriteAll Method " Url="html/Overload_JeremyAnsel_IO_Locator_IWritableFileLocator_WriteAll.htm">
+        <HelpTOCNode Id="485d9e0b-5ce0-454e-af75-116fda6498a3" Title="WriteAll Method " Url="html/Overload_JeremyAnsel_IO_Locator_IWritableFileLocator_WriteAll.htm">
           <HelpTOCNode Title="WriteAll Method (IFileLocator)" Url="html/M_JeremyAnsel_IO_Locator_IWritableFileLocator_WriteAll.htm" />
           <HelpTOCNode Title="WriteAll Method (IFileLocator, String)" Url="html/M_JeremyAnsel_IO_Locator_IWritableFileLocator_WriteAll_1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="a7a6a150-bafa-4dc7-a2a8-3c586e47ffc8" Title="MemoryFileLocator Class" Url="html/T_JeremyAnsel_IO_Locator_MemoryFileLocator.htm">
+    <HelpTOCNode Id="f7cda58f-7b6c-407f-a258-1658db0dc304" Title="MemoryFileLocator Class" Url="html/T_JeremyAnsel_IO_Locator_MemoryFileLocator.htm">
       <HelpTOCNode Title="MemoryFileLocator Constructor " Url="html/M_JeremyAnsel_IO_Locator_MemoryFileLocator__ctor.htm" />
-      <HelpTOCNode Id="16a4750c-b749-43e0-894f-e8de2c0be313" Title="MemoryFileLocator Properties" Url="html/Properties_T_JeremyAnsel_IO_Locator_MemoryFileLocator.htm">
+      <HelpTOCNode Id="235df374-48fa-4792-9775-b03eeb33a9b6" Title="MemoryFileLocator Properties" Url="html/Properties_T_JeremyAnsel_IO_Locator_MemoryFileLocator.htm">
         <HelpTOCNode Title="IsEmpty Property " Url="html/P_JeremyAnsel_IO_Locator_MemoryFileLocator_IsEmpty.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="d65c5bdc-9f20-46f0-a5ea-7f60a822bb57" Title="MemoryFileLocator Methods" Url="html/Methods_T_JeremyAnsel_IO_Locator_MemoryFileLocator.htm">
+      <HelpTOCNode Id="b0c72cfb-a6ff-429e-b28a-b7bb48a77aec" Title="MemoryFileLocator Methods" Url="html/Methods_T_JeremyAnsel_IO_Locator_MemoryFileLocator.htm">
         <HelpTOCNode Title="Clear Method " Url="html/M_JeremyAnsel_IO_Locator_MemoryFileLocator_Clear.htm" />
         <HelpTOCNode Title="Create Method " Url="html/M_JeremyAnsel_IO_Locator_MemoryFileLocator_Create.htm" />
         <HelpTOCNode Title="Dispose Method " Url="html/M_JeremyAnsel_IO_Locator_MemoryFileLocator_Dispose.htm" />
-        <HelpTOCNode Id="c3234de2-6b89-4332-94c9-ced3421431ee" Title="EnumerateFiles Method " Url="html/Overload_JeremyAnsel_IO_Locator_MemoryFileLocator_EnumerateFiles.htm">
+        <HelpTOCNode Id="746811f8-5cbf-4df8-b2a3-d571fd4e11db" Title="EnumerateFiles Method " Url="html/Overload_JeremyAnsel_IO_Locator_MemoryFileLocator_EnumerateFiles.htm">
           <HelpTOCNode Title="EnumerateFiles Method " Url="html/M_JeremyAnsel_IO_Locator_MemoryFileLocator_EnumerateFiles.htm" />
           <HelpTOCNode Title="EnumerateFiles Method (String)" Url="html/M_JeremyAnsel_IO_Locator_MemoryFileLocator_EnumerateFiles_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="Exists Method " Url="html/M_JeremyAnsel_IO_Locator_MemoryFileLocator_Exists.htm" />
         <HelpTOCNode Title="Open Method " Url="html/M_JeremyAnsel_IO_Locator_MemoryFileLocator_Open.htm" />
         <HelpTOCNode Title="Write Method " Url="html/M_JeremyAnsel_IO_Locator_MemoryFileLocator_Write.htm" />
-        <HelpTOCNode Id="4b8e7937-d058-48f6-a63d-5f51efcb51f5" Title="WriteAll Method " Url="html/Overload_JeremyAnsel_IO_Locator_MemoryFileLocator_WriteAll.htm">
+        <HelpTOCNode Id="579cebe5-cff3-4ac1-b905-4e2554ac77a8" Title="WriteAll Method " Url="html/Overload_JeremyAnsel_IO_Locator_MemoryFileLocator_WriteAll.htm">
           <HelpTOCNode Title="WriteAll Method (IFileLocator)" Url="html/M_JeremyAnsel_IO_Locator_MemoryFileLocator_WriteAll.htm" />
           <HelpTOCNode Title="WriteAll Method (IFileLocator, String)" Url="html/M_JeremyAnsel_IO_Locator_MemoryFileLocator_WriteAll_1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="eb4e75d3-a088-4ad4-b60d-897e824a66ec" Title="WritableFileLocatorFactory Class" Url="html/T_JeremyAnsel_IO_Locator_WritableFileLocatorFactory.htm">
-      <HelpTOCNode Id="80527a87-56b5-48b2-94a2-ed4af8998991" Title="WritableFileLocatorFactory Methods" Url="html/Methods_T_JeremyAnsel_IO_Locator_WritableFileLocatorFactory.htm">
+    <HelpTOCNode Id="6cfa0b37-c350-40aa-8329-f1ad18b13ad0" Title="WritableFileLocatorFactory Class" Url="html/T_JeremyAnsel_IO_Locator_WritableFileLocatorFactory.htm">
+      <HelpTOCNode Id="04196420-4ed7-4e52-b7d0-6fd6e271176b" Title="WritableFileLocatorFactory Methods" Url="html/Methods_T_JeremyAnsel_IO_Locator_WritableFileLocatorFactory.htm">
         <HelpTOCNode Title="Create Method " Url="html/M_JeremyAnsel_IO_Locator_WritableFileLocatorFactory_Create.htm" />
-        <HelpTOCNode Id="89364bd8-2886-4810-ad1f-c98aacbabd4c" Title="CreateArchive Method " Url="html/Overload_JeremyAnsel_IO_Locator_WritableFileLocatorFactory_CreateArchive.htm">
+        <HelpTOCNode Id="83bc3c8a-ce81-45ec-9324-d332d2701196" Title="CreateArchive Method " Url="html/Overload_JeremyAnsel_IO_Locator_WritableFileLocatorFactory_CreateArchive.htm">
           <HelpTOCNode Title="CreateArchive Method (Stream, ArchiveType)" Url="html/M_JeremyAnsel_IO_Locator_WritableFileLocatorFactory_CreateArchive.htm" />
           <HelpTOCNode Title="CreateArchive Method (String, ArchiveType)" Url="html/M_JeremyAnsel_IO_Locator_WritableFileLocatorFactory_CreateArchive_2.htm" />
           <HelpTOCNode Title="CreateArchive Method (Stream, ArchiveType, CompressionType)" Url="html/M_JeremyAnsel_IO_Locator_WritableFileLocatorFactory_CreateArchive_1.htm" />
