@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\Documentation.shfbproj" started="9/20/2019 11:45:16 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\Documentation.shfbproj" started="9/20/2019 11:56:35 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\packages\EWSoftware.SHFB.2015.10.10.0\Tools\&#39;
@@ -45,7 +45,7 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0155
+</plugIn>    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
@@ -54,7 +54,7 @@ Generating API filter for MRefBuilder...
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 9/20/2019 11:45:21 AM.
+Build started 9/20/2019 11:56:39 AM.
 Project &quot;C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\build\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Release\&quot;.
@@ -73,13 +73,13 @@ Done Building Project &quot;C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Lo
 
 Build succeeded.
 
-Time Elapsed 00:00:01.89
+Time Elapsed 00:00:01.90
     Last step completed in 00:00:02.5781
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 9/20/2019 11:45:23 AM.
+Build started 9/20/2019 11:56:42 AM.
 Project &quot;C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\build\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2015.10.10.0)
@@ -111,7 +111,7 @@ Done Building Project &quot;C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Lo
 Build succeeded.
 
 Time Elapsed 00:00:01.72
-    Last step completed in 00:00:02.4088
+    Last step completed in 00:00:02.3490
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
@@ -126,7 +126,7 @@ GenerateApiFilter
 GenerateReflectionInfo
 TransformReflectionInfo
 Completed
-</plugIn>    Last step completed in 00:00:06.7656
+</plugIn>    Last step completed in 00:00:06.5847
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -141,7 +141,7 @@ Generating conceptual topic files
     C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\Content\VersionHistory\VersionHistory.aml -&gt; C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\build\Working\ddueXml\VersionHistory.xml
     Parsing topic file &#39;C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\Content\VersionHistory\v1.0.aml&#39;
     C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\Content\VersionHistory\v1.0.aml -&gt; C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\build\Working\ddueXml\VersionHistory-v1_0.xml
-    Last step completed in 00:00:00.0313
+    Last step completed in 00:00:00.0469
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
@@ -157,12 +157,12 @@ C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\icons\He
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 9/20/2019 11:45:32 AM.
+Build started 9/20/2019 11:56:51 AM.
 Project &quot;C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\build\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2015.10.10.0)
@@ -173,9 +173,9 @@ Done Building Project &quot;C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Lo
 
 Build succeeded.
 
-Time Elapsed 00:00:01.21
+Time Elapsed 00:00:01.18
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.8594
+    Last step completed in 00:00:01.8281
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
@@ -183,7 +183,7 @@ Creating Sandcastle configuration files...
 Adding additional reference link namespaces...
 </plugIn>    sandcastle.config
     conceptual.config
-    Last step completed in 00:00:00.1719
+    Last step completed in 00:00:00.1563
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -200,7 +200,7 @@ Adding references to C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\D
 <buildStep step="BuildConceptualTopics">
 Building conceptual help topics...
 [C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - BuildConceptualTopics.proj]
-Build started 9/20/2019 11:45:34 AM.
+Build started 9/20/2019 11:56:53 AM.
 Project &quot;C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\build\Working\BuildConceptualTopics.proj&quot; on node 1 (default targets).
 BuildConceptualTopics:
   BuildAssembler (v2015.10.10.0)
@@ -215,13 +215,13 @@ Done Building Project &quot;C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Lo
 
 Build succeeded.
 
-Time Elapsed 00:00:07.96
-    Last step completed in 00:00:08.6250
+Time Elapsed 00:00:07.68
+    Last step completed in 00:00:08.3437
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - BuildReferenceTopics.proj]
-Build started 9/20/2019 11:45:43 AM.
+Build started 9/20/2019 11:57:01 AM.
 Project &quot;C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\build\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 BuildReferenceTopics:
   BuildAssembler (v2015.10.10.0)
@@ -238,8 +238,8 @@ Done Building Project &quot;C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Lo
 
 Build succeeded.
 
-Time Elapsed 00:00:22.52
-    Last step completed in 00:00:23.2162
+Time Elapsed 00:00:14.86
+    Last step completed in 00:00:15.5370
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -259,7 +259,7 @@ Processed 56 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\build\Working\WebKI.xml
 Saving website table of contents to C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\build\Working\WebTOC.xml
-    Last step completed in 00:00:01.4063
+    Last step completed in 00:00:01.3437
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -338,24 +338,24 @@ C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\packages\EWSoftware.SH
 C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\packages\EWSoftware.SHFB.2015.10.10.0\tools\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\build\Working\Output\Website\icons\TocOpen.gif
 C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\packages\EWSoftware.SHFB.2015.10.10.0\tools\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\build\Working\Output\Website\scripts\branding-Website.js
 C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\packages\EWSoftware.SHFB.2015.10.10.0\tools\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\Documentation\build\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.4219
+    Last step completed in 00:00:00.4063
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00.1563
+</plugIn>    Last step completed in 00:00:00.1562
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 179 files for the website content
-    Last step completed in 00:00:00.0625
+    Last step completed in 00:00:00.0781
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
@@ -363,7 +363,7 @@ Removing intermediate files...
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 9/20/2019 11:46:08 AM.  Total time: 00:00:51.3911
+Build completed successfully at 9/20/2019 11:57:18 AM.  Total time: 00:00:43.1957
 
 </buildStep>
 </shfbBuild>
