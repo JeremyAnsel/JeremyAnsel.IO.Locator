@@ -221,14 +221,178 @@ for (i = 0, l = charts.length; i < l; i++) {
 }
 
 var assemblies = [
+  {
+    "name": "JeremyAnsel.IO.DiscLocator",
+    "classes": [
+      { "name": "JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory", "rp": "JeremyAnsel.IO.DiscLocator_DiscFileLocatorFactory.htm", "cl": 4, "ucl": 27, "cal": 31, "tl": 134, "ct": "LineCoverage", "mc": "-", "cb": 3, "tb": 20, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.IO.DiscLocator.DiscFsFileLocator", "rp": "JeremyAnsel.IO.DiscLocator_DiscFsFileLocator.htm", "cl": 0, "ucl": 31, "cal": 31, "tl": 152, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 10, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.IO.DiscLocator.IsoFileLocator", "rp": "JeremyAnsel.IO.DiscLocator_IsoFileLocator.htm", "cl": 1, "ucl": 9, "cal": 10, "tl": 57, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 6, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.IO.DiscLocator.UdfFileLocator", "rp": "JeremyAnsel.IO.DiscLocator_UdfFileLocator.htm", "cl": 1, "ucl": 9, "cal": 10, "tl": 57, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 6, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.IO.DiscLocator.Utilities", "rp": "JeremyAnsel.IO.DiscLocator_Utilities.htm", "cl": 0, "ucl": 6, "cal": 6, "tl": 35, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
+    ]},
+  {
+    "name": "JeremyAnsel.IO.Locator",
+    "classes": [
+      { "name": "JeremyAnsel.IO.Locator.ArchiveFileLocator", "rp": "JeremyAnsel.IO.Locator_ArchiveFileLocator.htm", "cl": 20, "ucl": 21, "cal": 41, "tl": 172, "ct": "LineCoverage", "mc": "-", "cb": 7, "tb": 22, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.IO.Locator.ArchiveWritableFileLocator", "rp": "JeremyAnsel.IO.Locator_ArchiveWritableFileLocator.htm", "cl": 46, "ucl": 10, "cal": 56, "tl": 196, "ct": "LineCoverage", "mc": "-", "cb": 13, "tb": 22, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.IO.Locator.FileLocatorFactory", "rp": "JeremyAnsel.IO.Locator_FileLocatorFactory.htm", "cl": 3, "ucl": 12, "cal": 15, "tl": 82, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 12, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.IO.Locator.MemoryFileLocator", "rp": "JeremyAnsel.IO.Locator_MemoryFileLocator.htm", "cl": 27, "ucl": 15, "cal": 42, "tl": 190, "ct": "LineCoverage", "mc": "-", "cb": 5, "tb": 14, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.IO.Locator.SystemFileLocator", "rp": "JeremyAnsel.IO.Locator_SystemFileLocator.htm", "cl": 0, "ucl": 28, "cal": 28, "tl": 136, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 12, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.IO.Locator.SystemWritableFileLocator", "rp": "JeremyAnsel.IO.Locator_SystemWritableFileLocator.htm", "cl": 0, "ucl": 33, "cal": 33, "tl": 130, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 16, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.IO.Locator.Utilities", "rp": "JeremyAnsel.IO.Locator_Utilities.htm", "cl": 11, "ucl": 0, "cal": 11, "tl": 63, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "JeremyAnsel.IO.Locator.WritableFileLocatorFactory", "rp": "JeremyAnsel.IO.Locator_WritableFileLocatorFactory.htm", "cl": 2, "ucl": 19, "cal": 21, "tl": 122, "ct": "LineCoverage", "mc": "-", "cb": 1, "tb": 18, "lch": [], "bch": [], "hc": [] },
+    ]},
 ];
 
 var historicCoverageExecutionTimes = [];
 
 var riskHotspotMetrics = [
+      { "name": "Cyclomatic complexity", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" },
+      { "name": "NPath complexity", "explanationUrl": "https://modess.io/npath-complexity-cyclomatic-complexity-explained" },
+      { "name": "Crap Score", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" },
 ];
 
 var riskHotspots = [
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.ArchiveFileLocator", "reportPath": "JeremyAnsel.IO.Locator_ArchiveFileLocator.htm", "methodName": "EnumerateFiles()", "methodShortName": "EnumerateFiles()", "fileIndex": 0, "line": 158,
+    "metrics": [
+      { "value": 7, "exceeded": false },
+      { "value": 4, "exceeded": false },
+      { "value": 56, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.ArchiveWritableFileLocator", "reportPath": "JeremyAnsel.IO.Locator_ArchiveWritableFileLocator.htm", "methodName": "System.Void JeremyAnsel.IO.Locator.ArchiveWritableFileLocator::.ctor(System.String,SharpCompress.Common.ArchiveType,SharpCompress.Common.CompressionType)", "methodShortName": ".ctor(...)", "fileIndex": 0, "line": 42,
+    "metrics": [
+      { "value": 7, "exceeded": false },
+      { "value": 8, "exceeded": false },
+      { "value": 56, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.ArchiveFileLocator", "reportPath": "JeremyAnsel.IO.Locator_ArchiveFileLocator.htm", "methodName": "System.Boolean JeremyAnsel.IO.Locator.ArchiveFileLocator::Exists(System.String)", "methodShortName": "Exists(...)", "fileIndex": 0, "line": 93,
+    "metrics": [
+      { "value": 6, "exceeded": false },
+      { "value": 8, "exceeded": false },
+      { "value": 42, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.ArchiveFileLocator", "reportPath": "JeremyAnsel.IO.Locator_ArchiveFileLocator.htm", "methodName": "System.IO.Stream JeremyAnsel.IO.Locator.ArchiveFileLocator::Open(System.String)", "methodShortName": "Open(...)", "fileIndex": 0, "line": 121,
+    "metrics": [
+      { "value": 6, "exceeded": false },
+      { "value": 8, "exceeded": false },
+      { "value": 42, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.MemoryFileLocator", "reportPath": "JeremyAnsel.IO.Locator_MemoryFileLocator.htm", "methodName": "EnumerateFiles()", "methodShortName": "EnumerateFiles()", "fileIndex": 0, "line": 98,
+    "metrics": [
+      { "value": 6, "exceeded": false },
+      { "value": 2, "exceeded": false },
+      { "value": 42, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.SystemFileLocator", "reportPath": "JeremyAnsel.IO.Locator_SystemFileLocator.htm", "methodName": "EnumerateFiles()", "methodShortName": "EnumerateFiles()", "fileIndex": 0, "line": 117,
+    "metrics": [
+      { "value": 6, "exceeded": false },
+      { "value": 2, "exceeded": false },
+      { "value": 42, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.SystemWritableFileLocator", "reportPath": "JeremyAnsel.IO.Locator_SystemWritableFileLocator.htm", "methodName": "System.Void JeremyAnsel.IO.Locator.SystemWritableFileLocator::Create(System.String)", "methodShortName": "Create(...)", "fileIndex": 0, "line": 51,
+    "metrics": [
+      { "value": 6, "exceeded": false },
+      { "value": 16, "exceeded": false },
+      { "value": 42, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.WritableFileLocatorFactory", "reportPath": "JeremyAnsel.IO.Locator_WritableFileLocatorFactory.htm", "methodName": "JeremyAnsel.IO.Locator.IWritableFileLocator JeremyAnsel.IO.Locator.WritableFileLocatorFactory::Create(System.String)", "methodShortName": "Create(...)", "fileIndex": 0, "line": 31,
+    "metrics": [
+      { "value": 6, "exceeded": false },
+      { "value": 32, "exceeded": false },
+      { "value": 42, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.DiscLocator", "class": "JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory", "reportPath": "JeremyAnsel.IO.DiscLocator_DiscFileLocatorFactory.htm", "methodName": "JeremyAnsel.IO.Locator.IFileLocator JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory::Create(JeremyAnsel.IO.Locator.IFileLocator,System.String)", "methodShortName": "Create(...)", "fileIndex": 0, "line": 55,
+    "metrics": [
+      { "value": 5, "exceeded": false },
+      { "value": 16, "exceeded": false },
+      { "value": 30, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.DiscLocator", "class": "JeremyAnsel.IO.DiscLocator.DiscFsFileLocator", "reportPath": "JeremyAnsel.IO.DiscLocator_DiscFsFileLocator.htm", "methodName": "EnumerateFiles()", "methodShortName": "EnumerateFiles()", "fileIndex": 0, "line": 117,
+    "metrics": [
+      { "value": 5, "exceeded": false },
+      { "value": 2, "exceeded": false },
+      { "value": 30, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.ArchiveWritableFileLocator", "reportPath": "JeremyAnsel.IO.Locator_ArchiveWritableFileLocator.htm", "methodName": "System.Void JeremyAnsel.IO.Locator.ArchiveWritableFileLocator::WriteAll(JeremyAnsel.IO.Locator.IFileLocator,System.String)", "methodShortName": "WriteAll(...)", "fileIndex": 0, "line": 182,
+    "metrics": [
+      { "value": 5, "exceeded": false },
+      { "value": 2, "exceeded": false },
+      { "value": 30, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.MemoryFileLocator", "reportPath": "JeremyAnsel.IO.Locator_MemoryFileLocator.htm", "methodName": "System.Void JeremyAnsel.IO.Locator.MemoryFileLocator::Write(System.String,System.IO.Stream)", "methodShortName": "Write(...)", "fileIndex": 0, "line": 135,
+    "metrics": [
+      { "value": 5, "exceeded": false },
+      { "value": 8, "exceeded": false },
+      { "value": 30, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.MemoryFileLocator", "reportPath": "JeremyAnsel.IO.Locator_MemoryFileLocator.htm", "methodName": "System.Void JeremyAnsel.IO.Locator.MemoryFileLocator::WriteAll(JeremyAnsel.IO.Locator.IFileLocator,System.String)", "methodShortName": "WriteAll(...)", "fileIndex": 0, "line": 176,
+    "metrics": [
+      { "value": 5, "exceeded": false },
+      { "value": 2, "exceeded": false },
+      { "value": 30, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.SystemWritableFileLocator", "reportPath": "JeremyAnsel.IO.Locator_SystemWritableFileLocator.htm", "methodName": "System.Void JeremyAnsel.IO.Locator.SystemWritableFileLocator::WriteAll(JeremyAnsel.IO.Locator.IFileLocator,System.String)", "methodShortName": "WriteAll(...)", "fileIndex": 0, "line": 116,
+    "metrics": [
+      { "value": 5, "exceeded": false },
+      { "value": 2, "exceeded": false },
+      { "value": 30, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.DiscLocator", "class": "JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory", "reportPath": "JeremyAnsel.IO.DiscLocator_DiscFileLocatorFactory.htm", "methodName": "JeremyAnsel.IO.Locator.IFileLocator JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory::Create(System.String)", "methodShortName": "Create(...)", "fileIndex": 0, "line": 29,
+    "metrics": [
+      { "value": 4, "exceeded": false },
+      { "value": 8, "exceeded": false },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.DiscLocator", "class": "JeremyAnsel.IO.DiscLocator.DiscFsFileLocator", "reportPath": "JeremyAnsel.IO.DiscLocator_DiscFsFileLocator.htm", "methodName": "System.Void JeremyAnsel.IO.DiscLocator.DiscFsFileLocator::Dispose(System.Boolean)", "methodShortName": "Dispose(...)", "fileIndex": 0, "line": 136,
+    "metrics": [
+      { "value": 4, "exceeded": false },
+      { "value": 8, "exceeded": false },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.ArchiveWritableFileLocator", "reportPath": "JeremyAnsel.IO.Locator_ArchiveWritableFileLocator.htm", "methodName": "System.Void JeremyAnsel.IO.Locator.ArchiveWritableFileLocator::Create(System.String)", "methodShortName": "Create(...)", "fileIndex": 0, "line": 115,
+    "metrics": [
+      { "value": 4, "exceeded": false },
+      { "value": 4, "exceeded": false },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.ArchiveWritableFileLocator", "reportPath": "JeremyAnsel.IO.Locator_ArchiveWritableFileLocator.htm", "methodName": "System.Void JeremyAnsel.IO.Locator.ArchiveWritableFileLocator::Write(System.String,System.IO.Stream)", "methodShortName": "Write(...)", "fileIndex": 0, "line": 145,
+    "metrics": [
+      { "value": 4, "exceeded": false },
+      { "value": 8, "exceeded": false },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.FileLocatorFactory", "reportPath": "JeremyAnsel.IO.Locator_FileLocatorFactory.htm", "methodName": "JeremyAnsel.IO.Locator.IFileLocator JeremyAnsel.IO.Locator.FileLocatorFactory::Create(JeremyAnsel.IO.Locator.IFileLocator,System.String)", "methodShortName": "Create(...)", "fileIndex": 0, "line": 49,
+    "metrics": [
+      { "value": 4, "exceeded": false },
+      { "value": 8, "exceeded": false },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.SystemWritableFileLocator", "reportPath": "JeremyAnsel.IO.Locator_SystemWritableFileLocator.htm", "methodName": "System.Void JeremyAnsel.IO.Locator.SystemWritableFileLocator::Write(System.String,System.IO.Stream)", "methodShortName": "Write(...)", "fileIndex": 0, "line": 82,
+    "metrics": [
+      { "value": 4, "exceeded": false },
+      { "value": 4, "exceeded": false },
+      { "value": 20, "exceeded": true },
+    ]},
 ];
 
 var branchCoverageAvailable = true;
