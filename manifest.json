@@ -1,0 +1,209 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/projects/jeremyansel-io-locator/JeremyAnsel.IO.Locator/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.html",
+          "hash": "wZ3Kx4HTO99nGbohPl19mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.IO.DiscLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.IO.DiscLocator.html",
+          "hash": "hT+zUQTxgS0MXSnfbmc7Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.IO.Locator.FileLocatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.IO.Locator.FileLocatorFactory.html",
+          "hash": "fYvqNkbKmS1+H7FreeEq9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.IO.Locator.IFileLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.IO.Locator.IFileLocator.html",
+          "hash": "eLLomkSZWI8YZB2NfhCTHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.IO.Locator.IWritableFileLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.IO.Locator.IWritableFileLocator.html",
+          "hash": "quOLMpQb+v9MRSKignY79w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.IO.Locator.MemoryFileLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.IO.Locator.MemoryFileLocator.html",
+          "hash": "l36nXqZu/JZbTgNSMhEFJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.IO.Locator.WritableFileLocatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.IO.Locator.WritableFileLocatorFactory.html",
+          "hash": "W2WqBNAtdvh2hk1v94Kurg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.IO.Locator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.IO.Locator.html",
+          "hash": "3R3qs5OZeKGCrutaANzCag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "tyykdJYfgWaAKX5RYkF+Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "+hu6gflkPkAc3242X6lTyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ioPuKX6TubdlohvToXQ38Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "gFitfx/bVVhfHjM/L00nPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
