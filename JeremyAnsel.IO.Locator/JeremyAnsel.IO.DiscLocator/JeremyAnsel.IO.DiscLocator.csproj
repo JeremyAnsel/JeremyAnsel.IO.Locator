@@ -6,7 +6,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <Version>2.0.0</Version>
+    <Version>2.0.0-pre</Version>
     <Description>A .Net library to abstract file access to disc images. Supports Iso, Udf.</Description>
     <Authors>Jérémy Ansel</Authors>
     <Company>Jérémy Ansel</Company>

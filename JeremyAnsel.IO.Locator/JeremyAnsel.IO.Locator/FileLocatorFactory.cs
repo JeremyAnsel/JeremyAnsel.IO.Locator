@@ -27,7 +27,7 @@ namespace JeremyAnsel.IO.Locator
         {
             if (string.IsNullOrEmpty(root))
             {
-                throw new ArgumentNullException("root");
+                throw new ArgumentNullException(nameof(root));
             }
 
             if (Path.HasExtension(root))
@@ -48,12 +48,12 @@ namespace JeremyAnsel.IO.Locator
         {
             if (locator == null)
             {
-                throw new ArgumentNullException("locator");
+                throw new ArgumentNullException(nameof(locator));
             }
 
             if (root == null)
             {
-                throw new ArgumentNullException("root");
+                throw new ArgumentNullException(nameof(root));
             }
 
             if (Path.HasExtension(root))
@@ -73,7 +73,7 @@ namespace JeremyAnsel.IO.Locator
         {
             if (root == null)
             {
-                throw new ArgumentNullException("root");
+                throw new ArgumentNullException(nameof(root));
             }
 
             return new ArchiveFileLocator(root);

@@ -7,6 +7,7 @@
 
 namespace JeremyAnsel.IO.DiscLocator
 {
+    using System.Globalization;
     using System.IO;
 
     /// <summary>
@@ -29,7 +30,7 @@ namespace JeremyAnsel.IO.DiscLocator
             return path
                 .Replace(Path.AltDirectorySeparatorChar, Path.DirectorySeparatorChar)
                 .TrimStart(Path.DirectorySeparatorChar)
-                .Insert(0, Path.DirectorySeparatorChar.ToString());
+                .Insert(0, Path.DirectorySeparatorChar.ToString(CultureInfo.InvariantCulture));
         }
     }
 }

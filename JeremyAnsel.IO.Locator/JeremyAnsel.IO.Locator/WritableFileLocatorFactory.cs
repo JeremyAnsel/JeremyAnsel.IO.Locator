@@ -30,7 +30,7 @@ namespace JeremyAnsel.IO.Locator
         {
             if (string.IsNullOrEmpty(root))
             {
-                throw new ArgumentNullException("root");
+                throw new ArgumentNullException(nameof(root));
             }
 
             string ext = Path.GetExtension(root);
@@ -64,7 +64,7 @@ namespace JeremyAnsel.IO.Locator
         {
             if (string.IsNullOrEmpty(root))
             {
-                throw new ArgumentNullException("root");
+                throw new ArgumentNullException(nameof(root));
             }
 
             return new ArchiveWritableFileLocator(root, archiveType, compressionType);
@@ -80,7 +80,7 @@ namespace JeremyAnsel.IO.Locator
         {
             if (string.IsNullOrEmpty(root))
             {
-                throw new ArgumentNullException("root");
+                throw new ArgumentNullException(nameof(root));
             }
 
             return new ArchiveWritableFileLocator(root, archiveType, CompressionType.Deflate);
@@ -97,7 +97,7 @@ namespace JeremyAnsel.IO.Locator
         {
             if (root == null)
             {
-                throw new ArgumentNullException("root");
+                throw new ArgumentNullException(nameof(root));
             }
 
             return new ArchiveWritableFileLocator(root, archiveType, compressionType);
@@ -113,7 +113,7 @@ namespace JeremyAnsel.IO.Locator
         {
             if (root == null)
             {
-                throw new ArgumentNullException("root");
+                throw new ArgumentNullException(nameof(root));
             }
 
             return new ArchiveWritableFileLocator(root, archiveType, CompressionType.Deflate);

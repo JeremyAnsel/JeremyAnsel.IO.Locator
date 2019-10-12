@@ -28,7 +28,7 @@ namespace JeremyAnsel.IO.DiscLocator
         {
             if (string.IsNullOrEmpty(root))
             {
-                throw new ArgumentNullException("root");
+                throw new ArgumentNullException(nameof(root));
             }
 
             if (DiscFileLocatorFactory.IsDisc(root, IsoFileLocator.IsIsoFile))
@@ -54,12 +54,12 @@ namespace JeremyAnsel.IO.DiscLocator
         {
             if (locator == null)
             {
-                throw new ArgumentNullException("locator");
+                throw new ArgumentNullException(nameof(locator));
             }
 
             if (string.IsNullOrEmpty(root))
             {
-                throw new ArgumentNullException("root");
+                throw new ArgumentNullException(nameof(root));
             }
 
             if (DiscFileLocatorFactory.IsDisc(locator, root, IsoFileLocator.IsIsoFile))
@@ -84,7 +84,7 @@ namespace JeremyAnsel.IO.DiscLocator
         {
             if (root == null)
             {
-                throw new ArgumentNullException("root");
+                throw new ArgumentNullException(nameof(root));
             }
 
             if (IsoFileLocator.IsIsoFile(root))

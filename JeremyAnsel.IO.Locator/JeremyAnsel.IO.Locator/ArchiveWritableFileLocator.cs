@@ -114,14 +114,14 @@ namespace JeremyAnsel.IO.Locator
         {
             if (string.IsNullOrEmpty(path))
             {
-                throw new ArgumentNullException("path");
+                throw new ArgumentNullException(nameof(path));
             }
 
             path = Utilities.PathNormalize(path);
 
             if (this.keys.Contains(path))
             {
-                throw new ArgumentOutOfRangeException("path");
+                throw new ArgumentOutOfRangeException(nameof(path));
             }
 
             using (var buffer = new MemoryStream())
@@ -144,19 +144,19 @@ namespace JeremyAnsel.IO.Locator
         {
             if (string.IsNullOrEmpty(path))
             {
-                throw new ArgumentNullException("path");
+                throw new ArgumentNullException(nameof(path));
             }
 
             if (data == null)
             {
-                throw new ArgumentNullException("data");
+                throw new ArgumentNullException(nameof(data));
             }
 
             path = Utilities.PathNormalize(path);
 
             if (this.keys.Contains(path))
             {
-                throw new ArgumentOutOfRangeException("path");
+                throw new ArgumentOutOfRangeException(nameof(path));
             }
 
             this.archive.Write(path, data);
@@ -181,7 +181,7 @@ namespace JeremyAnsel.IO.Locator
         {
             if (locator == null)
             {
-                throw new ArgumentNullException("locator");
+                throw new ArgumentNullException(nameof(locator));
             }
 
             foreach (var file in locator.EnumerateFiles(root))

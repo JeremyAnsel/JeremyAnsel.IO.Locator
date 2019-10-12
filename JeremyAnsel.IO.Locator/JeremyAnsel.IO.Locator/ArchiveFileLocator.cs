@@ -120,7 +120,7 @@ namespace JeremyAnsel.IO.Locator
         {
             if (string.IsNullOrEmpty(path))
             {
-                throw new ArgumentNullException("path");
+                throw new ArgumentNullException(nameof(path));
             }
 
             foreach (var entry in this.archive.Entries)

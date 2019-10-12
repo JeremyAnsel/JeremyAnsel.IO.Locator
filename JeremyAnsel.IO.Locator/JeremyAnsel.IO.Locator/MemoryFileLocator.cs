@@ -110,19 +110,23 @@ namespace JeremyAnsel.IO.Locator
         /// <param name="path">A path.</param>
         public void Create(string path)
         {
-            if (string.IsNullOrEmpty("path"))
+            if (string.IsNullOrEmpty(path))
             {
-                throw new ArgumentNullException("path");
+                throw new ArgumentNullException(nameof(path));
             }
 
             path = Utilities.PathNormalize(path);
 
             if (this.database.ContainsKey(path))
             {
-                throw new ArgumentOutOfRangeException("path");
+                throw new ArgumentOutOfRangeException(nameof(path));
             }
 
+#if NET45
             this.database.Add(path, new byte[0]);
+#else
+            this.database.Add(path, Array.Empty<byte>());
+#endif
         }
 
         /// <summary>
@@ -132,21 +136,21 @@ namespace JeremyAnsel.IO.Locator
         /// <param name="data">The data.</param>
         public void Write(string path, Stream data)
         {
-            if (string.IsNullOrEmpty("path"))
+            if (string.IsNullOrEmpty(path))
             {
-                throw new ArgumentNullException("path");
+                throw new ArgumentNullException(nameof(path));
             }
 
             if (data == null)
             {
-                throw new ArgumentNullException("data");
+                throw new ArgumentNullException(nameof(data));
             }
 
             path = Utilities.PathNormalize(path);
 
             if (this.database.ContainsKey(path))
             {
-                throw new ArgumentOutOfRangeException("path");
+                throw new ArgumentOutOfRangeException(nameof(path));
             }
 
             using (var buffer = new MemoryStream())
@@ -175,7 +179,7 @@ namespace JeremyAnsel.IO.Locator
         {
             if (locator == null)
             {
-                throw new ArgumentNullException("locator");
+                throw new ArgumentNullException(nameof(locator));
             }
 
             foreach (var file in locator.EnumerateFiles(root))
