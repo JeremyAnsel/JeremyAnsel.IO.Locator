@@ -1,0 +1,1459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="347" visitedSequencePoints="124" numBranchPoints="188" visitedBranchPoints="53" sequenceCoverage="35.73" branchCoverage="28.19" maxCyclomaticComplexity="159" minCyclomaticComplexity="58" visitedClasses="11" numClasses="17" visitedMethods="27" numMethods="74" />
+  <Modules>
+    <Module hash="76368C14-0A1B-4F27-BD3A-FD0C8A4A9557">
+      <ModulePath>JeremyAnsel.IO.DiscLocator.dll</ModulePath>
+      <ModuleTime>2019-10-12T07:38:14</ModuleTime>
+      <ModuleName>JeremyAnsel.IO.DiscLocator</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.DiscLocator\DiscFileLocatorFactory.cs" />
+        <File uid="2" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.DiscLocator\DiscFsFileLocator.cs" />
+        <File uid="3" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.DiscLocator\IsoFileLocator.cs" />
+        <File uid="4" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.DiscLocator\UdfFileLocator.cs" />
+        <File uid="5" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.DiscLocator\Utilities.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="31" visitedSequencePoints="4" numBranchPoints="20" visitedBranchPoints="3" sequenceCoverage="12.9" branchCoverage="15" maxCyclomaticComplexity="8" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="5" />
+          <FullName>JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>JeremyAnsel.IO.Locator.IFileLocator JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory::Create(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="29" ordinal="0" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="31" ordinal="1" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="34" ordinal="2" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="36" ordinal="3" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="39" ordinal="4" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="41" ordinal="5" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="44" ordinal="6" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="29" ordinal="0" path="0" offset="6" offsetend="8" sl="29" fileid="1" />
+                <BranchPoint vc="0" uspid="29" ordinal="1" path="1" offset="6" offsetend="19" sl="29" fileid="1" />
+                <BranchPoint vc="0" uspid="34" ordinal="2" path="0" offset="37" offsetend="39" sl="34" fileid="1" />
+                <BranchPoint vc="0" uspid="34" ordinal="3" path="1" offset="37" offsetend="46" sl="34" fileid="1" />
+                <BranchPoint vc="0" uspid="39" ordinal="4" path="0" offset="64" offsetend="66" sl="39" fileid="1" />
+                <BranchPoint vc="0" uspid="39" ordinal="5" path="1" offset="64" offsetend="73" sl="39" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="29" ec="1" el="44" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="8" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="8" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>JeremyAnsel.IO.Locator.IFileLocator JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory::Create(JeremyAnsel.IO.Locator.IFileLocator,System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="55" ordinal="0" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="57" ordinal="1" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="60" ordinal="2" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="62" ordinal="3" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="65" ordinal="4" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="67" ordinal="5" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="70" ordinal="6" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="72" ordinal="7" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="75" ordinal="8" sl="75" sc="1" el="75" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="55" ordinal="0" path="0" offset="1" offsetend="3" sl="55" fileid="1" />
+                <BranchPoint vc="0" uspid="55" ordinal="1" path="1" offset="1" offsetend="14" sl="55" fileid="1" />
+                <BranchPoint vc="0" uspid="60" ordinal="2" path="0" offset="20" offsetend="22" sl="60" fileid="1" />
+                <BranchPoint vc="0" uspid="60" ordinal="3" path="1" offset="20" offsetend="33" sl="60" fileid="1" />
+                <BranchPoint vc="0" uspid="65" ordinal="4" path="0" offset="52" offsetend="54" sl="65" fileid="1" />
+                <BranchPoint vc="0" uspid="65" ordinal="5" path="1" offset="52" offsetend="62" sl="65" fileid="1" />
+                <BranchPoint vc="0" uspid="70" ordinal="6" path="0" offset="81" offsetend="83" sl="70" fileid="1" />
+                <BranchPoint vc="0" uspid="70" ordinal="7" path="1" offset="81" offsetend="91" sl="70" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="55" ec="1" el="75" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="44.44" branchCoverage="50" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="4" numBranchPoints="6" visitedBranchPoints="3" sequenceCoverage="44.44" branchCoverage="50" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>JeremyAnsel.IO.Locator.IFileLocator JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory::Create(System.IO.Stream)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="85" ordinal="0" sl="85" sc="1" el="85" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="87" ordinal="1" sl="87" sc="1" el="87" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="90" ordinal="2" sl="90" sc="1" el="90" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="92" ordinal="3" sl="92" sc="1" el="92" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="93" ordinal="4" sl="93" sc="1" el="93" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="96" ordinal="5" sl="96" sc="1" el="96" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="98" ordinal="6" sl="98" sc="1" el="98" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="99" ordinal="7" sl="99" sc="1" el="99" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="102" ordinal="8" sl="102" sc="1" el="102" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="85" ordinal="0" path="0" offset="1" offsetend="3" sl="85" fileid="1" />
+                <BranchPoint vc="1" uspid="85" ordinal="1" path="1" offset="1" offsetend="14" sl="85" fileid="1" />
+                <BranchPoint vc="0" uspid="90" ordinal="2" path="0" offset="20" offsetend="22" sl="90" fileid="1" />
+                <BranchPoint vc="1" uspid="90" ordinal="3" path="1" offset="20" offsetend="39" sl="90" fileid="1" />
+                <BranchPoint vc="0" uspid="96" ordinal="4" path="0" offset="45" offsetend="47" sl="96" fileid="1" />
+                <BranchPoint vc="1" uspid="96" ordinal="5" path="1" offset="45" offsetend="64" sl="96" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="85" ec="1" el="102" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory::IsDisc(System.String,System.Func`2&lt;System.IO.Stream,System.Boolean&gt;)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="113" ordinal="0" sl="113" sc="1" el="113" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="115" ordinal="1" sl="115" sc="1" el="115" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="117" ordinal="2" sl="117" sc="1" el="117" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="113" ec="1" el="117" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory::IsDisc(JeremyAnsel.IO.Locator.IFileLocator,System.String,System.Func`2&lt;System.IO.Stream,System.Boolean&gt;)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="128" ordinal="0" sl="128" sc="1" el="128" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="130" ordinal="1" sl="130" sc="1" el="130" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="132" ordinal="2" sl="132" sc="1" el="132" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="128" ec="1" el="132" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="28" visitedSequencePoints="0" numBranchPoints="8" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="8" />
+          <FullName>JeremyAnsel.IO.DiscLocator.DiscFsFileLocator</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.DiscLocator.DiscFsFileLocator::Dispose()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="77" ordinal="0" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="78" ordinal="1" sl="78" sc="1" el="78" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="79" ordinal="2" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="77" ec="1" el="79" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.DiscLocator.DiscFsFileLocator::Exists(System.String)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="88" ordinal="0" sl="88" sc="1" el="88" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="88" ec="1" el="88" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.IO.Stream JeremyAnsel.IO.DiscLocator.DiscFsFileLocator::Open(System.String)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="98" ordinal="0" sl="98" sc="1" el="98" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="98" ec="1" el="98" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;System.String&gt; JeremyAnsel.IO.DiscLocator.DiscFsFileLocator::EnumerateFiles()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="107" ordinal="0" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="107" ec="1" el="107" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.DiscLocator.DiscFsFileLocator::Dispose(System.Boolean)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="136" ordinal="0" sl="136" sc="1" el="136" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="138" ordinal="1" sl="138" sc="1" el="138" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="140" ordinal="2" sl="140" sc="1" el="140" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="141" ordinal="3" sl="141" sc="1" el="141" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="144" ordinal="4" sl="144" sc="1" el="144" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="146" ordinal="5" sl="146" sc="1" el="146" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="147" ordinal="6" sl="147" sc="1" el="147" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="150" ordinal="7" sl="150" sc="1" el="150" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="136" ordinal="0" path="0" offset="1" offsetend="3" sl="136" fileid="2" />
+                <BranchPoint vc="0" uspid="138" ordinal="2" path="0" offset="9" offsetend="11" sl="138" fileid="2" />
+                <BranchPoint vc="0" uspid="138" ordinal="3" path="1" offset="9" offsetend="29" sl="138" fileid="2" />
+                <BranchPoint vc="0" uspid="144" ordinal="4" path="0" offset="35" offsetend="37" sl="144" fileid="2" />
+                <BranchPoint vc="0" uspid="136" ordinal="1" path="1" offset="1" offsetend="55" sl="136" fileid="2" />
+                <BranchPoint vc="0" uspid="144" ordinal="5" path="1" offset="35" offsetend="55" sl="144" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="136" ec="1" el="150" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.DiscLocator.DiscFsFileLocator::.ctor(System.String,System.Func`2&lt;System.IO.Stream,DiscUtils.DiscFileSystem&gt;)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="36" ordinal="0" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="38" ordinal="1" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="39" ordinal="2" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="40" ordinal="3" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="36" ec="1" el="40" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.DiscLocator.DiscFsFileLocator::.ctor(JeremyAnsel.IO.Locator.IFileLocator,System.String,System.Func`2&lt;System.IO.Stream,DiscUtils.DiscFileSystem&gt;)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="48" ordinal="0" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="50" ordinal="1" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="52" ordinal="2" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="53" ordinal="3" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="56" ordinal="4" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="59" ordinal="5" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="60" ordinal="6" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="50" ordinal="0" path="0" offset="7" offsetend="9" sl="50" fileid="2" />
+                <BranchPoint vc="0" uspid="50" ordinal="1" path="1" offset="7" offsetend="24" sl="50" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="48" ec="1" el="60" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.DiscLocator.DiscFsFileLocator::.ctor(System.IO.Stream,System.Func`2&lt;System.IO.Stream,DiscUtils.DiscFileSystem&gt;)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="67" ordinal="0" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="69" ordinal="1" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="70" ordinal="2" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="67" ec="1" el="70" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>JeremyAnsel.IO.DiscLocator.DiscFsFileLocator/&lt;EnumerateFiles&gt;d__9</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.DiscLocator.DiscFsFileLocator/&lt;EnumerateFiles&gt;d__9::MoveNext()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="117" ordinal="0" sl="117" sc="1" el="117" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="119" ordinal="1" sl="119" sc="1" el="119" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="121" ordinal="2" sl="121" sc="1" el="121" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="124" ordinal="3" sl="124" sc="1" el="124" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="126" ordinal="4" sl="126" sc="1" el="126" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="128" ordinal="5" sl="128" sc="1" el="128" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="117" ordinal="0" path="0" offset="19" offsetend="21" sl="117" fileid="2" />
+                <BranchPoint vc="0" uspid="119" ordinal="2" path="0" offset="64" offsetend="66" sl="119" fileid="2" />
+                <BranchPoint vc="0" uspid="119" ordinal="3" path="1" offset="64" offsetend="68" sl="119" fileid="2" />
+                <BranchPoint vc="0" uspid="124" ordinal="5" path="1" offset="176" offsetend="106" sl="124" fileid="2" />
+                <BranchPoint vc="0" uspid="117" ordinal="1" path="1" offset="19" offsetend="141" sl="117" fileid="2" />
+                <BranchPoint vc="0" uspid="124" ordinal="4" path="0" offset="176" offsetend="178" sl="124" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="117" ec="1" el="128" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="1" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="14.28" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="4" />
+          <FullName>JeremyAnsel.IO.DiscLocator.IsoFileLocator</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.DiscLocator.IsoFileLocator::IsIsoFile(System.IO.Stream)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="54" ordinal="0" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="54" ec="1" el="54" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.DiscLocator.IsoFileLocator::.ctor(System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="24" ordinal="0" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="26" ordinal="1" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="24" ordinal="0" path="0" offset="8" offsetend="10" sl="24" fileid="3" />
+                <BranchPoint vc="0" uspid="24" ordinal="1" path="1" offset="8" offsetend="33" sl="24" fileid="3" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="24" ec="1" el="26" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.DiscLocator.IsoFileLocator::.ctor(JeremyAnsel.IO.Locator.IFileLocator,System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="34" ordinal="0" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="36" ordinal="1" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="34" ordinal="0" path="0" offset="9" offsetend="11" sl="34" fileid="3" />
+                <BranchPoint vc="0" uspid="34" ordinal="1" path="1" offset="9" offsetend="34" sl="34" fileid="3" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="34" ec="1" el="36" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.DiscLocator.IsoFileLocator::.ctor(System.IO.Stream)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="43" ordinal="0" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="45" ordinal="1" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="43" ordinal="0" path="0" offset="8" offsetend="10" sl="43" fileid="3" />
+                <BranchPoint vc="0" uspid="43" ordinal="1" path="1" offset="8" offsetend="33" sl="43" fileid="3" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="43" ec="1" el="45" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="1" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="14.28" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="4" />
+          <FullName>JeremyAnsel.IO.DiscLocator.UdfFileLocator</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.DiscLocator.UdfFileLocator::IsUdfFile(System.IO.Stream)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="54" ordinal="0" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="54" ec="1" el="54" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.DiscLocator.UdfFileLocator::.ctor(System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="24" ordinal="0" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="26" ordinal="1" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="24" ordinal="0" path="0" offset="8" offsetend="10" sl="24" fileid="4" />
+                <BranchPoint vc="0" uspid="24" ordinal="1" path="1" offset="8" offsetend="33" sl="24" fileid="4" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="24" ec="1" el="26" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.DiscLocator.UdfFileLocator::.ctor(JeremyAnsel.IO.Locator.IFileLocator,System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="34" ordinal="0" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="36" ordinal="1" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="34" ordinal="0" path="0" offset="9" offsetend="11" sl="34" fileid="4" />
+                <BranchPoint vc="0" uspid="34" ordinal="1" path="1" offset="9" offsetend="34" sl="34" fileid="4" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="34" ec="1" el="36" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.DiscLocator.UdfFileLocator::.ctor(System.IO.Stream)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="43" ordinal="0" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="45" ordinal="1" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="43" ordinal="0" path="0" offset="8" offsetend="10" sl="43" fileid="4" />
+                <BranchPoint vc="0" uspid="43" ordinal="1" path="1" offset="8" offsetend="33" sl="43" fileid="4" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="43" ec="1" el="45" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>JeremyAnsel.IO.DiscLocator.Utilities</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String JeremyAnsel.IO.DiscLocator.Utilities::PathNormalize(System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="25" ordinal="0" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="27" ordinal="1" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="30" ordinal="2" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="31" ordinal="3" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="32" ordinal="4" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="33" ordinal="5" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="25" ordinal="0" path="0" offset="6" offsetend="8" sl="25" fileid="5" />
+                <BranchPoint vc="0" uspid="25" ordinal="1" path="1" offset="6" offsetend="14" sl="25" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="25" ec="1" el="33" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="57417EA7-B696-44BD-9BFE-D1F15293EDDF">
+      <ModulePath>JeremyAnsel.IO.Locator.dll</ModulePath>
+      <ModuleTime>2019-10-12T07:38:14</ModuleTime>
+      <ModuleName>JeremyAnsel.IO.Locator</ModuleName>
+      <Files>
+        <File uid="6" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator\ArchiveFileLocator.cs" />
+        <File uid="7" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator\ArchiveWritableFileLocator.cs" />
+        <File uid="8" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator\FileLocatorFactory.cs" />
+        <File uid="9" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator\MemoryFileLocator.cs" />
+        <File uid="10" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator\SystemFileLocator.cs" />
+        <File uid="11" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator\SystemWritableFileLocator.cs" />
+        <File uid="12" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator\Utilities.cs" />
+        <File uid="13" fullPath="C:\projects\jeremyansel-io-locator\JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator\WritableFileLocatorFactory.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="38" visitedSequencePoints="16" numBranchPoints="22" visitedBranchPoints="9" sequenceCoverage="42.1" branchCoverage="40.9" maxCyclomaticComplexity="8" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="7" />
+          <FullName>JeremyAnsel.IO.Locator.ArchiveFileLocator</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="75" branchCoverage="75" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="6" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="75" branchCoverage="75" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.ArchiveFileLocator::Dispose()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="71" ordinal="0" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="73" ordinal="1" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="74" ordinal="2" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="77" ordinal="3" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="79" ordinal="4" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="80" ordinal="5" sl="80" sc="1" el="80" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="83" ordinal="6" sl="83" sc="1" el="83" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="84" ordinal="7" sl="84" sc="1" el="84" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="71" ordinal="0" path="0" offset="6" offsetend="8" sl="71" fileid="6" />
+                <BranchPoint vc="2" uspid="71" ordinal="1" path="1" offset="6" offsetend="26" sl="71" fileid="6" />
+                <BranchPoint vc="2" uspid="77" ordinal="2" path="0" offset="32" offsetend="34" sl="77" fileid="6" />
+                <BranchPoint vc="2" uspid="77" ordinal="3" path="1" offset="32" offsetend="52" sl="77" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="71" ec="1" el="84" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="8" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="8" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.Locator.ArchiveFileLocator::Exists(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="93" ordinal="0" sl="93" sc="1" el="93" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="95" ordinal="1" sl="95" sc="1" el="95" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="98" ordinal="2" sl="98" sc="1" el="98" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="100" ordinal="3" sl="100" sc="1" el="100" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="105" ordinal="4" sl="105" sc="1" el="105" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="107" ordinal="5" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="111" ordinal="6" sl="111" sc="1" el="111" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="112" ordinal="7" sl="112" sc="1" el="112" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="93" ordinal="0" path="0" offset="6" offsetend="8" sl="93" fileid="6" />
+                <BranchPoint vc="0" uspid="93" ordinal="1" path="1" offset="6" offsetend="10" sl="93" fileid="6" />
+                <BranchPoint vc="0" uspid="98" ordinal="7" path="1" offset="68" offsetend="29" sl="98" fileid="6" />
+                <BranchPoint vc="0" uspid="100" ordinal="2" path="0" offset="42" offsetend="44" sl="100" fileid="6" />
+                <BranchPoint vc="0" uspid="105" ordinal="4" path="0" offset="56" offsetend="58" sl="105" fileid="6" />
+                <BranchPoint vc="0" uspid="100" ordinal="3" path="1" offset="42" offsetend="62" sl="100" fileid="6" />
+                <BranchPoint vc="0" uspid="105" ordinal="5" path="1" offset="56" offsetend="62" sl="105" fileid="6" />
+                <BranchPoint vc="0" uspid="98" ordinal="6" path="0" offset="68" offsetend="70" sl="98" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="93" ec="1" el="112" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="8" nPathComplexity="0" sequenceCoverage="75" branchCoverage="75" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="6" numBranchPoints="8" visitedBranchPoints="6" sequenceCoverage="75" branchCoverage="75" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.IO.Stream JeremyAnsel.IO.Locator.ArchiveFileLocator::Open(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="121" ordinal="0" sl="121" sc="1" el="121" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="123" ordinal="1" sl="123" sc="1" el="123" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="126" ordinal="2" sl="126" sc="1" el="126" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="128" ordinal="3" sl="128" sc="1" el="128" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="133" ordinal="4" sl="133" sc="1" el="133" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="135" ordinal="5" sl="135" sc="1" el="135" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="139" ordinal="6" sl="139" sc="1" el="139" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="140" ordinal="7" sl="140" sc="1" el="140" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="121" ordinal="0" path="0" offset="6" offsetend="8" sl="121" fileid="6" />
+                <BranchPoint vc="1" uspid="121" ordinal="1" path="1" offset="6" offsetend="19" sl="121" fileid="6" />
+                <BranchPoint vc="1" uspid="126" ordinal="7" path="1" offset="82" offsetend="38" sl="126" fileid="6" />
+                <BranchPoint vc="1" uspid="128" ordinal="2" path="0" offset="51" offsetend="53" sl="128" fileid="6" />
+                <BranchPoint vc="1" uspid="133" ordinal="4" path="0" offset="65" offsetend="67" sl="133" fileid="6" />
+                <BranchPoint vc="1" uspid="128" ordinal="3" path="1" offset="51" offsetend="76" sl="128" fileid="6" />
+                <BranchPoint vc="1" uspid="133" ordinal="5" path="1" offset="65" offsetend="76" sl="133" fileid="6" />
+                <BranchPoint vc="0" uspid="126" ordinal="6" path="0" offset="82" offsetend="84" sl="126" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="121" ec="1" el="140" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;System.String&gt; JeremyAnsel.IO.Locator.ArchiveFileLocator::EnumerateFiles()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="148" ordinal="0" sl="148" sc="1" el="148" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="148" ec="1" el="148" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.ArchiveFileLocator::.ctor(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="34" ordinal="0" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="36" ordinal="1" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="37" ordinal="2" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="34" ec="1" el="37" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.ArchiveFileLocator::.ctor(JeremyAnsel.IO.Locator.IFileLocator,System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="44" ordinal="0" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="46" ordinal="1" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="48" ordinal="2" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="49" ordinal="3" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="50" ordinal="4" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="53" ordinal="5" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="55" ordinal="6" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="46" ordinal="0" path="0" offset="7" offsetend="9" sl="46" fileid="6" />
+                <BranchPoint vc="0" uspid="46" ordinal="1" path="1" offset="7" offsetend="41" sl="46" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="44" ec="1" el="55" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.ArchiveFileLocator::.ctor(System.IO.Stream)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="61" ordinal="0" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="63" ordinal="1" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="64" ordinal="2" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="61" ec="1" el="64" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="8" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="87.5" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>JeremyAnsel.IO.Locator.ArchiveFileLocator/&lt;EnumerateFiles&gt;d__9</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="8" nPathComplexity="0" sequenceCoverage="100" branchCoverage="87.5" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="8" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="87.5" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.Locator.ArchiveFileLocator/&lt;EnumerateFiles&gt;d__9::MoveNext()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="10" uspid="158" ordinal="0" sl="158" sc="1" el="158" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="160" ordinal="1" sl="160" sc="1" el="160" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="165" ordinal="2" sl="165" sc="1" el="165" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="167" ordinal="3" sl="167" sc="1" el="167" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="170" ordinal="4" sl="170" sc="1" el="170" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="158" ordinal="0" path="0" offset="19" offsetend="21" sl="158" fileid="6" />
+                <BranchPoint vc="3" uspid="158" ordinal="7" path="1" offset="153" offsetend="67" sl="158" fileid="6" />
+                <BranchPoint vc="3" uspid="160" ordinal="2" path="0" offset="85" offsetend="87" sl="160" fileid="6" />
+                <BranchPoint vc="3" uspid="165" ordinal="4" path="0" offset="104" offsetend="106" sl="165" fileid="6" />
+                <BranchPoint vc="3" uspid="158" ordinal="1" path="1" offset="19" offsetend="134" sl="158" fileid="6" />
+                <BranchPoint vc="5" uspid="160" ordinal="3" path="1" offset="85" offsetend="142" sl="160" fileid="6" />
+                <BranchPoint vc="5" uspid="165" ordinal="5" path="1" offset="104" offsetend="142" sl="165" fileid="6" />
+                <BranchPoint vc="2" uspid="158" ordinal="6" path="0" offset="153" offsetend="155" sl="158" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="158" ec="1" el="170" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="61" visitedSequencePoints="51" numBranchPoints="24" visitedBranchPoints="18" sequenceCoverage="83.6" branchCoverage="75" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="7" />
+          <FullName>JeremyAnsel.IO.Locator.ArchiveWritableFileLocator</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.ArchiveWritableFileLocator::Dispose()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="94" ordinal="0" sl="94" sc="1" el="94" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="96" ordinal="1" sl="96" sc="1" el="96" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="97" ordinal="2" sl="97" sc="1" el="97" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="100" ordinal="3" sl="100" sc="1" el="100" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="102" ordinal="4" sl="102" sc="1" el="102" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="103" ordinal="5" sl="103" sc="1" el="103" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="106" ordinal="6" sl="106" sc="1" el="106" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="107" ordinal="7" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="94" ordinal="0" path="0" offset="6" offsetend="8" sl="94" fileid="7" />
+                <BranchPoint vc="2" uspid="94" ordinal="1" path="1" offset="6" offsetend="26" sl="94" fileid="7" />
+                <BranchPoint vc="2" uspid="100" ordinal="2" path="0" offset="32" offsetend="34" sl="100" fileid="7" />
+                <BranchPoint vc="2" uspid="100" ordinal="3" path="1" offset="32" offsetend="52" sl="100" fileid="7" />
+              </BranchPoints>
+              <MethodPoint vc="8" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="94" ec="1" el="107" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="83.33" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="12" visitedSequencePoints="10" numBranchPoints="4" visitedBranchPoints="2" sequenceCoverage="83.33" branchCoverage="50" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.ArchiveWritableFileLocator::Create(System.String)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="115" ordinal="0" sl="115" sc="1" el="115" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="117" ordinal="1" sl="117" sc="1" el="117" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="120" ordinal="2" sl="120" sc="1" el="120" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="122" ordinal="3" sl="122" sc="1" el="122" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="124" ordinal="4" sl="124" sc="1" el="124" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="127" ordinal="5" sl="127" sc="1" el="127" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="129" ordinal="6" sl="129" sc="1" el="129" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="130" ordinal="7" sl="130" sc="1" el="130" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="132" ordinal="8" sl="132" sc="1" el="132" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="133" ordinal="9" sl="133" sc="1" el="133" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="135" ordinal="10" sl="135" sc="1" el="135" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="136" ordinal="11" sl="136" sc="1" el="136" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="115" ordinal="0" path="0" offset="6" offsetend="8" sl="115" fileid="7" />
+                <BranchPoint vc="2" uspid="115" ordinal="1" path="1" offset="6" offsetend="19" sl="115" fileid="7" />
+                <BranchPoint vc="0" uspid="122" ordinal="2" path="0" offset="39" offsetend="41" sl="122" fileid="7" />
+                <BranchPoint vc="2" uspid="122" ordinal="3" path="1" offset="39" offsetend="52" sl="122" fileid="7" />
+              </BranchPoints>
+              <MethodPoint vc="10" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="115" ec="1" el="136" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="70" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="10" visitedSequencePoints="7" numBranchPoints="6" visitedBranchPoints="3" sequenceCoverage="70" branchCoverage="50" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.ArchiveWritableFileLocator::Write(System.String,System.IO.Stream)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="145" ordinal="0" sl="145" sc="1" el="145" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="147" ordinal="1" sl="147" sc="1" el="147" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="150" ordinal="2" sl="150" sc="1" el="150" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="152" ordinal="3" sl="152" sc="1" el="152" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="155" ordinal="4" sl="155" sc="1" el="155" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="157" ordinal="5" sl="157" sc="1" el="157" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="159" ordinal="6" sl="159" sc="1" el="159" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="162" ordinal="7" sl="162" sc="1" el="162" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="163" ordinal="8" sl="163" sc="1" el="163" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="164" ordinal="9" sl="164" sc="1" el="164" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="145" ordinal="0" path="0" offset="6" offsetend="8" sl="145" fileid="7" />
+                <BranchPoint vc="1" uspid="145" ordinal="1" path="1" offset="6" offsetend="19" sl="145" fileid="7" />
+                <BranchPoint vc="0" uspid="150" ordinal="2" path="0" offset="20" offsetend="22" sl="150" fileid="7" />
+                <BranchPoint vc="1" uspid="150" ordinal="3" path="1" offset="20" offsetend="33" sl="150" fileid="7" />
+                <BranchPoint vc="0" uspid="157" ordinal="4" path="0" offset="53" offsetend="55" sl="157" fileid="7" />
+                <BranchPoint vc="1" uspid="157" ordinal="5" path="1" offset="53" offsetend="66" sl="157" fileid="7" />
+              </BranchPoints>
+              <MethodPoint vc="7" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="145" ec="1" el="164" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.ArchiveWritableFileLocator::WriteAll(JeremyAnsel.IO.Locator.IFileLocator)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="172" ordinal="0" sl="172" sc="1" el="172" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="173" ordinal="1" sl="173" sc="1" el="173" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="172" ec="1" el="173" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="85.71" branchCoverage="75" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="6" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="85.71" branchCoverage="75" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.ArchiveWritableFileLocator::WriteAll(JeremyAnsel.IO.Locator.IFileLocator,System.String)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="182" ordinal="0" sl="182" sc="1" el="182" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="184" ordinal="1" sl="184" sc="1" el="184" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="4" uspid="187" ordinal="2" sl="187" sc="1" el="187" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="189" ordinal="3" sl="189" sc="1" el="189" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="191" ordinal="4" sl="191" sc="1" el="191" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="192" ordinal="5" sl="192" sc="1" el="192" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="194" ordinal="6" sl="194" sc="1" el="194" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="182" ordinal="0" path="0" offset="1" offsetend="3" sl="182" fileid="7" />
+                <BranchPoint vc="1" uspid="182" ordinal="1" path="1" offset="1" offsetend="14" sl="182" fileid="7" />
+                <BranchPoint vc="1" uspid="187" ordinal="3" path="1" offset="70" offsetend="29" sl="187" fileid="7" />
+                <BranchPoint vc="1" uspid="187" ordinal="2" path="0" offset="70" offsetend="72" sl="187" fileid="7" />
+              </BranchPoints>
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="182" ec="1" el="194" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="18" visitedSequencePoints="18" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.ArchiveWritableFileLocator::.ctor(System.String,SharpCompress.Common.ArchiveType,SharpCompress.Common.CompressionType)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="42" ordinal="0" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="44" ordinal="1" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="46" ordinal="2" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="48" ordinal="3" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="50" ordinal="4" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="52" ordinal="5" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="54" ordinal="6" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="55" ordinal="7" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="57" ordinal="8" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="59" ordinal="9" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="61" ordinal="10" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="62" ordinal="11" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="66" ordinal="12" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="67" ordinal="13" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="69" ordinal="14" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="71" ordinal="15" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="73" ordinal="16" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="2" uspid="74" ordinal="17" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="48" ordinal="0" path="0" offset="29" offsetend="31" sl="48" fileid="7" />
+                <BranchPoint vc="1" uspid="57" ordinal="2" path="0" offset="61" offsetend="63" sl="57" fileid="7" />
+                <BranchPoint vc="2" uspid="48" ordinal="1" path="1" offset="29" offsetend="89" sl="48" fileid="7" />
+                <BranchPoint vc="2" uspid="57" ordinal="3" path="1" offset="61" offsetend="89" sl="57" fileid="7" />
+                <BranchPoint vc="1" uspid="69" ordinal="4" path="0" offset="131" offsetend="133" sl="69" fileid="7" />
+                <BranchPoint vc="2" uspid="69" ordinal="5" path="1" offset="131" offsetend="140" sl="69" fileid="7" />
+              </BranchPoints>
+              <MethodPoint vc="18" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="42" ec="1" el="74" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.ArchiveWritableFileLocator::.ctor(System.IO.Stream,SharpCompress.Common.ArchiveType,SharpCompress.Common.CompressionType)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="82" ordinal="0" sl="82" sc="1" el="82" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="84" ordinal="1" sl="84" sc="1" el="84" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="86" ordinal="2" sl="86" sc="1" el="86" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="87" ordinal="3" sl="87" sc="1" el="87" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="82" ec="1" el="87" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="3" numBranchPoints="12" visitedBranchPoints="2" sequenceCoverage="20" branchCoverage="16.66" maxCyclomaticComplexity="6" minCyclomaticComplexity="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="3" />
+          <FullName>JeremyAnsel.IO.Locator.FileLocatorFactory</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="60" branchCoverage="50" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="3" numBranchPoints="4" visitedBranchPoints="2" sequenceCoverage="60" branchCoverage="50" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>JeremyAnsel.IO.Locator.IFileLocator JeremyAnsel.IO.Locator.FileLocatorFactory::Create(System.String)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="28" ordinal="0" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="30" ordinal="1" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="33" ordinal="2" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="35" ordinal="3" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="38" ordinal="4" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="28" ordinal="0" path="0" offset="6" offsetend="8" sl="28" fileid="8" />
+                <BranchPoint vc="2" uspid="28" ordinal="1" path="1" offset="6" offsetend="19" sl="28" fileid="8" />
+                <BranchPoint vc="2" uspid="33" ordinal="2" path="0" offset="25" offsetend="27" sl="33" fileid="8" />
+                <BranchPoint vc="0" uspid="33" ordinal="3" path="1" offset="25" offsetend="34" sl="33" fileid="8" />
+              </BranchPoints>
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="28" ec="1" el="38" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>JeremyAnsel.IO.Locator.IFileLocator JeremyAnsel.IO.Locator.FileLocatorFactory::Create(JeremyAnsel.IO.Locator.IFileLocator,System.String)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="49" ordinal="0" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="51" ordinal="1" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="54" ordinal="2" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="56" ordinal="3" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="59" ordinal="4" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="61" ordinal="5" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="64" ordinal="6" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="49" ordinal="0" path="0" offset="1" offsetend="3" sl="49" fileid="8" />
+                <BranchPoint vc="0" uspid="49" ordinal="1" path="1" offset="1" offsetend="14" sl="49" fileid="8" />
+                <BranchPoint vc="0" uspid="54" ordinal="2" path="0" offset="15" offsetend="17" sl="54" fileid="8" />
+                <BranchPoint vc="0" uspid="54" ordinal="3" path="1" offset="15" offsetend="28" sl="54" fileid="8" />
+                <BranchPoint vc="0" uspid="59" ordinal="4" path="0" offset="34" offsetend="36" sl="59" fileid="8" />
+                <BranchPoint vc="0" uspid="59" ordinal="5" path="1" offset="34" offsetend="44" sl="59" fileid="8" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="49" ec="1" el="64" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>JeremyAnsel.IO.Locator.IFileLocator JeremyAnsel.IO.Locator.FileLocatorFactory::Create(System.IO.Stream)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="74" ordinal="0" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="76" ordinal="1" sl="76" sc="1" el="76" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="79" ordinal="2" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="74" ordinal="0" path="0" offset="1" offsetend="3" sl="74" fileid="8" />
+                <BranchPoint vc="0" uspid="74" ordinal="1" path="1" offset="1" offsetend="14" sl="74" fileid="8" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="74" ec="1" el="79" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="41" visitedSequencePoints="26" numBranchPoints="14" visitedBranchPoints="6" sequenceCoverage="63.41" branchCoverage="42.85" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="7" numMethods="11" />
+          <FullName>JeremyAnsel.IO.Locator.MemoryFileLocator</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.Locator.MemoryFileLocator::get_IsEmpty()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="39" ordinal="0" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="39" ec="1" el="39" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.MemoryFileLocator::Dispose()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="48" ordinal="0" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="2" uspid="49" ordinal="1" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="48" ec="1" el="49" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.MemoryFileLocator::Clear()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="56" ordinal="0" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="57" ordinal="1" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="56" ec="1" el="57" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.Locator.MemoryFileLocator::Exists(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="66" ordinal="0" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="66" ec="1" el="66" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.IO.Stream JeremyAnsel.IO.Locator.MemoryFileLocator::Open(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="76" ordinal="0" sl="76" sc="1" el="76" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="78" ordinal="1" sl="78" sc="1" el="78" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="79" ordinal="2" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="76" ec="1" el="79" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;System.String&gt; JeremyAnsel.IO.Locator.MemoryFileLocator::EnumerateFiles()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="88" ordinal="0" sl="88" sc="1" el="88" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="88" ec="1" el="88" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.MemoryFileLocator::Create(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="113" ordinal="0" sl="113" sc="1" el="113" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="115" ordinal="1" sl="115" sc="1" el="115" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="118" ordinal="2" sl="118" sc="1" el="118" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="120" ordinal="3" sl="120" sc="1" el="120" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="122" ordinal="4" sl="122" sc="1" el="122" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="126" ordinal="5" sl="126" sc="1" el="126" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="130" ordinal="6" sl="130" sc="1" el="130" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="113" ordinal="0" path="0" offset="6" offsetend="8" sl="113" fileid="9" />
+                <BranchPoint vc="0" uspid="113" ordinal="1" path="1" offset="6" offsetend="19" sl="113" fileid="9" />
+                <BranchPoint vc="0" uspid="120" ordinal="2" path="0" offset="39" offsetend="41" sl="120" fileid="9" />
+                <BranchPoint vc="0" uspid="120" ordinal="3" path="1" offset="39" offsetend="52" sl="120" fileid="9" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="113" ec="1" el="130" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="75" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="12" visitedSequencePoints="9" numBranchPoints="6" visitedBranchPoints="3" sequenceCoverage="75" branchCoverage="50" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.MemoryFileLocator::Write(System.String,System.IO.Stream)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="139" ordinal="0" sl="139" sc="1" el="139" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="141" ordinal="1" sl="141" sc="1" el="141" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="144" ordinal="2" sl="144" sc="1" el="144" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="146" ordinal="3" sl="146" sc="1" el="146" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="149" ordinal="4" sl="149" sc="1" el="149" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="151" ordinal="5" sl="151" sc="1" el="151" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="153" ordinal="6" sl="153" sc="1" el="153" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="156" ordinal="7" sl="156" sc="1" el="156" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="158" ordinal="8" sl="158" sc="1" el="158" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="160" ordinal="9" sl="160" sc="1" el="160" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="161" ordinal="10" sl="161" sc="1" el="161" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="162" ordinal="11" sl="162" sc="1" el="162" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="139" ordinal="0" path="0" offset="6" offsetend="8" sl="139" fileid="9" />
+                <BranchPoint vc="1" uspid="139" ordinal="1" path="1" offset="6" offsetend="19" sl="139" fileid="9" />
+                <BranchPoint vc="0" uspid="144" ordinal="2" path="0" offset="20" offsetend="22" sl="144" fileid="9" />
+                <BranchPoint vc="1" uspid="144" ordinal="3" path="1" offset="20" offsetend="33" sl="144" fileid="9" />
+                <BranchPoint vc="0" uspid="151" ordinal="4" path="0" offset="53" offsetend="55" sl="151" fileid="9" />
+                <BranchPoint vc="1" uspid="151" ordinal="5" path="1" offset="53" offsetend="66" sl="151" fileid="9" />
+              </BranchPoints>
+              <MethodPoint vc="9" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="139" ec="1" el="162" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.MemoryFileLocator::WriteAll(JeremyAnsel.IO.Locator.IFileLocator)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="170" ordinal="0" sl="170" sc="1" el="170" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="171" ordinal="1" sl="171" sc="1" el="171" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="170" ec="1" el="171" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="85.71" branchCoverage="75" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="6" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="85.71" branchCoverage="75" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.MemoryFileLocator::WriteAll(JeremyAnsel.IO.Locator.IFileLocator,System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="180" ordinal="0" sl="180" sc="1" el="180" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="182" ordinal="1" sl="182" sc="1" el="182" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="4" uspid="185" ordinal="2" sl="185" sc="1" el="185" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="187" ordinal="3" sl="187" sc="1" el="187" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="189" ordinal="4" sl="189" sc="1" el="189" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="190" ordinal="5" sl="190" sc="1" el="190" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="192" ordinal="6" sl="192" sc="1" el="192" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="180" ordinal="0" path="0" offset="1" offsetend="3" sl="180" fileid="9" />
+                <BranchPoint vc="1" uspid="180" ordinal="1" path="1" offset="1" offsetend="14" sl="180" fileid="9" />
+                <BranchPoint vc="1" uspid="185" ordinal="3" path="1" offset="70" offsetend="29" sl="185" fileid="9" />
+                <BranchPoint vc="1" uspid="185" ordinal="2" path="0" offset="70" offsetend="72" sl="185" fileid="9" />
+              </BranchPoints>
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="9" offset="9" sc="0" sl="180" ec="1" el="192" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.MemoryFileLocator::.ctor()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="27" ordinal="0" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="2" uspid="29" ordinal="1" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="2" uspid="30" ordinal="2" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="10" offset="10" sc="0" sl="27" ec="1" el="30" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="6" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="83.33" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>JeremyAnsel.IO.Locator.MemoryFileLocator/&lt;EnumerateFiles&gt;d__9</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="100" branchCoverage="83.33" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="6" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="83.33" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.Locator.MemoryFileLocator/&lt;EnumerateFiles&gt;d__9::MoveNext()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="98" ordinal="0" sl="98" sc="1" el="98" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="100" ordinal="1" sl="100" sc="1" el="100" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="102" ordinal="2" sl="102" sc="1" el="102" ec="2" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="105" ordinal="3" sl="105" sc="1" el="105" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="98" ordinal="0" path="0" offset="19" offsetend="21" sl="98" fileid="9" />
+                <BranchPoint vc="1" uspid="98" ordinal="5" path="1" offset="130" offsetend="67" sl="98" fileid="9" />
+                <BranchPoint vc="1" uspid="100" ordinal="2" path="0" offset="91" offsetend="93" sl="100" fileid="9" />
+                <BranchPoint vc="1" uspid="98" ordinal="1" path="1" offset="19" offsetend="111" sl="98" fileid="9" />
+                <BranchPoint vc="2" uspid="100" ordinal="3" path="1" offset="91" offsetend="119" sl="100" fileid="9" />
+                <BranchPoint vc="1" uspid="98" ordinal="4" path="0" offset="130" offsetend="132" sl="98" fileid="9" />
+              </BranchPoints>
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="98" ec="1" el="105" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="22" visitedSequencePoints="0" numBranchPoints="10" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="6" />
+          <FullName>JeremyAnsel.IO.Locator.SystemFileLocator</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.SystemFileLocator::Dispose()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="64" ordinal="0" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="65" ordinal="1" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="64" ec="1" el="65" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.Locator.SystemFileLocator::Exists(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="74" ordinal="0" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="76" ordinal="1" sl="76" sc="1" el="76" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="78" ordinal="2" sl="78" sc="1" el="78" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="81" ordinal="3" sl="81" sc="1" el="81" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="76" ordinal="0" path="0" offset="19" offsetend="21" sl="76" fileid="10" />
+                <BranchPoint vc="0" uspid="76" ordinal="1" path="1" offset="19" offsetend="34" sl="76" fileid="10" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="74" ec="1" el="81" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.IO.Stream JeremyAnsel.IO.Locator.SystemFileLocator::Open(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="91" ordinal="0" sl="91" sc="1" el="91" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="93" ordinal="1" sl="93" sc="1" el="93" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="95" ordinal="2" sl="95" sc="1" el="95" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="98" ordinal="3" sl="98" sc="1" el="98" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="93" ordinal="0" path="0" offset="19" offsetend="21" sl="93" fileid="10" />
+                <BranchPoint vc="0" uspid="93" ordinal="1" path="1" offset="19" offsetend="34" sl="93" fileid="10" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="91" ec="1" el="98" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;System.String&gt; JeremyAnsel.IO.Locator.SystemFileLocator::EnumerateFiles()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="107" ordinal="0" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="107" ec="1" el="107" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.SystemFileLocator::.ctor(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="33" ordinal="0" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="35" ordinal="1" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="37" ordinal="2" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="40" ordinal="3" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="41" ordinal="4" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="35" ordinal="0" path="0" offset="12" offsetend="14" sl="35" fileid="10" />
+                <BranchPoint vc="0" uspid="35" ordinal="1" path="1" offset="12" offsetend="20" sl="35" fileid="10" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="33" ec="1" el="41" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.SystemFileLocator::.ctor(JeremyAnsel.IO.Locator.IFileLocator,System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="48" ordinal="0" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="50" ordinal="1" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="52" ordinal="2" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="55" ordinal="3" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="56" ordinal="4" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="57" ordinal="5" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="50" ordinal="0" path="0" offset="7" offsetend="9" sl="50" fileid="10" />
+                <BranchPoint vc="0" uspid="50" ordinal="2" path="0" offset="15" offsetend="17" sl="50" fileid="10" />
+                <BranchPoint vc="0" uspid="50" ordinal="1" path="1" offset="7" offsetend="23" sl="50" fileid="10" />
+                <BranchPoint vc="0" uspid="50" ordinal="3" path="1" offset="15" offsetend="23" sl="50" fileid="10" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="48" ec="1" el="57" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>JeremyAnsel.IO.Locator.SystemFileLocator/&lt;EnumerateFiles&gt;d__8</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.Locator.SystemFileLocator/&lt;EnumerateFiles&gt;d__8::MoveNext()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="117" ordinal="0" sl="117" sc="1" el="117" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="121" ordinal="1" sl="121" sc="1" el="121" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="123" ordinal="2" sl="123" sc="1" el="123" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="124" ordinal="3" sl="124" sc="1" el="124" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="127" ordinal="4" sl="127" sc="1" el="127" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="130" ordinal="5" sl="130" sc="1" el="130" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="132" ordinal="6" sl="132" sc="1" el="132" ec="2" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="134" ordinal="7" sl="134" sc="1" el="134" ec="2" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="117" ordinal="0" path="0" offset="19" offsetend="24" sl="117" fileid="10" />
+                <BranchPoint vc="0" uspid="121" ordinal="2" path="0" offset="72" offsetend="74" sl="121" fileid="10" />
+                <BranchPoint vc="0" uspid="121" ordinal="3" path="1" offset="72" offsetend="94" sl="121" fileid="10" />
+                <BranchPoint vc="0" uspid="130" ordinal="5" path="1" offset="211" offsetend="134" sl="130" fileid="10" />
+                <BranchPoint vc="0" uspid="117" ordinal="1" path="1" offset="19" offsetend="192" sl="117" fileid="10" />
+                <BranchPoint vc="0" uspid="130" ordinal="4" path="0" offset="211" offsetend="213" sl="130" fileid="10" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="117" ec="1" el="134" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="36" visitedSequencePoints="0" numBranchPoints="18" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="8" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="6" />
+          <FullName>JeremyAnsel.IO.Locator.SystemWritableFileLocator</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.SystemWritableFileLocator::Dispose()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="42" ordinal="0" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="43" ordinal="1" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="42" ec="1" el="43" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="8" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="11" visitedSequencePoints="0" numBranchPoints="8" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.SystemWritableFileLocator::Create(System.String)</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="51" ordinal="0" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="53" ordinal="1" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="56" ordinal="2" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="58" ordinal="3" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="60" ordinal="4" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="63" ordinal="5" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="65" ordinal="6" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="67" ordinal="7" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="70" ordinal="8" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="72" ordinal="9" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="73" ordinal="10" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="51" ordinal="0" path="0" offset="6" offsetend="8" sl="51" fileid="11" />
+                <BranchPoint vc="0" uspid="51" ordinal="1" path="1" offset="6" offsetend="19" sl="51" fileid="11" />
+                <BranchPoint vc="0" uspid="58" ordinal="2" path="0" offset="43" offsetend="45" sl="58" fileid="11" />
+                <BranchPoint vc="0" uspid="58" ordinal="3" path="1" offset="43" offsetend="53" sl="58" fileid="11" />
+                <BranchPoint vc="0" uspid="58" ordinal="4" path="0" offset="51" offsetend="53" sl="58" fileid="11" />
+                <BranchPoint vc="0" uspid="58" ordinal="5" path="1" offset="51" offsetend="64" sl="58" fileid="11" />
+                <BranchPoint vc="0" uspid="65" ordinal="6" path="0" offset="77" offsetend="79" sl="65" fileid="11" />
+                <BranchPoint vc="0" uspid="65" ordinal="7" path="1" offset="77" offsetend="86" sl="65" fileid="11" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="51" ec="1" el="73" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.SystemWritableFileLocator::Write(System.String,System.IO.Stream)</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="82" ordinal="0" sl="82" sc="1" el="82" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="84" ordinal="1" sl="84" sc="1" el="84" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="87" ordinal="2" sl="87" sc="1" el="87" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="89" ordinal="3" sl="89" sc="1" el="89" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="92" ordinal="4" sl="92" sc="1" el="92" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="94" ordinal="5" sl="94" sc="1" el="94" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="96" ordinal="6" sl="96" sc="1" el="96" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="97" ordinal="7" sl="97" sc="1" el="97" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="98" ordinal="8" sl="98" sc="1" el="98" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="82" ordinal="0" path="0" offset="6" offsetend="8" sl="82" fileid="11" />
+                <BranchPoint vc="0" uspid="82" ordinal="1" path="1" offset="6" offsetend="19" sl="82" fileid="11" />
+                <BranchPoint vc="0" uspid="87" ordinal="2" path="0" offset="20" offsetend="22" sl="87" fileid="11" />
+                <BranchPoint vc="0" uspid="87" ordinal="3" path="1" offset="20" offsetend="33" sl="87" fileid="11" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="82" ec="1" el="98" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.SystemWritableFileLocator::WriteAll(JeremyAnsel.IO.Locator.IFileLocator)</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="106" ordinal="0" sl="106" sc="1" el="106" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="107" ordinal="1" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="106" ec="1" el="107" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.SystemWritableFileLocator::WriteAll(JeremyAnsel.IO.Locator.IFileLocator,System.String)</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="116" ordinal="0" sl="116" sc="1" el="116" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="118" ordinal="1" sl="118" sc="1" el="118" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="121" ordinal="2" sl="121" sc="1" el="121" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="123" ordinal="3" sl="123" sc="1" el="123" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="125" ordinal="4" sl="125" sc="1" el="125" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="126" ordinal="5" sl="126" sc="1" el="126" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="128" ordinal="6" sl="128" sc="1" el="128" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="116" ordinal="0" path="0" offset="1" offsetend="3" sl="116" fileid="11" />
+                <BranchPoint vc="0" uspid="116" ordinal="1" path="1" offset="1" offsetend="14" sl="116" fileid="11" />
+                <BranchPoint vc="0" uspid="121" ordinal="3" path="1" offset="70" offsetend="29" sl="121" fileid="11" />
+                <BranchPoint vc="0" uspid="121" ordinal="2" path="0" offset="70" offsetend="72" sl="121" fileid="11" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="116" ec="1" el="128" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void JeremyAnsel.IO.Locator.SystemWritableFileLocator::.ctor(System.String)</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="27" ordinal="0" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="29" ordinal="1" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="31" ordinal="2" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="34" ordinal="3" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="35" ordinal="4" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="29" ordinal="0" path="0" offset="12" offsetend="14" sl="29" fileid="11" />
+                <BranchPoint vc="0" uspid="29" ordinal="1" path="1" offset="12" offsetend="20" sl="29" fileid="11" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="27" ec="1" el="35" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>JeremyAnsel.IO.Locator.Utilities</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String JeremyAnsel.IO.Locator.Utilities::PathNormalize(System.String)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="18" uspid="25" ordinal="0" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="4" uspid="27" ordinal="1" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="14" uspid="30" ordinal="2" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="14" uspid="31" ordinal="3" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="14" uspid="32" ordinal="4" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="4" uspid="25" ordinal="0" path="0" offset="6" offsetend="8" sl="25" fileid="12" />
+                <BranchPoint vc="14" uspid="25" ordinal="1" path="1" offset="6" offsetend="14" sl="25" fileid="12" />
+              </BranchPoints>
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="25" ec="1" el="32" bec="0" bev="0" fileid="12" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.Locator.Utilities::PathEquals(System.String,System.String)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="43" ordinal="0" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="44" ordinal="1" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="46" ordinal="2" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="43" ec="1" el="46" bec="0" bev="0" fileid="12" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean JeremyAnsel.IO.Locator.Utilities::PathStartsWith(System.String,System.String)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="57" ordinal="0" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="4" uspid="58" ordinal="1" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="4" uspid="60" ordinal="2" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="57" ec="1" el="60" bec="0" bev="0" fileid="12" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="21" visitedSequencePoints="2" numBranchPoints="18" visitedBranchPoints="1" sequenceCoverage="9.52" branchCoverage="5.55" maxCyclomaticComplexity="10" minCyclomaticComplexity="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="5" />
+          <FullName>JeremyAnsel.IO.Locator.WritableFileLocatorFactory</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="10" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="10" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="10" minCyclomaticComplexity="10" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>JeremyAnsel.IO.Locator.IWritableFileLocator JeremyAnsel.IO.Locator.WritableFileLocatorFactory::Create(System.String)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="31" ordinal="0" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="33" ordinal="1" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="36" ordinal="2" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="38" ordinal="3" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="40" ordinal="4" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="43" ordinal="5" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="46" ordinal="6" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="49" ordinal="7" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="53" ordinal="8" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="31" ordinal="0" path="0" offset="6" offsetend="8" sl="31" fileid="13" />
+                <BranchPoint vc="0" uspid="31" ordinal="1" path="1" offset="6" offsetend="19" sl="31" fileid="13" />
+                <BranchPoint vc="0" uspid="38" ordinal="2" path="0" offset="32" offsetend="34" sl="38" fileid="13" />
+                <BranchPoint vc="0" uspid="40" ordinal="4" path="0" offset="42" offsetend="44" sl="40" fileid="13" />
+                <BranchPoint vc="0" uspid="40" ordinal="6" path="0" offset="55" offsetend="57" sl="40" fileid="13" />
+                <BranchPoint vc="0" uspid="40" ordinal="7" path="1" offset="55" offsetend="72" sl="40" fileid="13" />
+                <BranchPoint vc="0" uspid="40" ordinal="9" path="1" offset="68" offsetend="81" sl="40" fileid="13" />
+                <BranchPoint vc="0" uspid="40" ordinal="5" path="1" offset="42" offsetend="90" sl="40" fileid="13" />
+                <BranchPoint vc="0" uspid="40" ordinal="8" path="0" offset="68" offsetend="90" sl="40" fileid="13" />
+                <BranchPoint vc="0" uspid="38" ordinal="3" path="1" offset="32" offsetend="96" sl="38" fileid="13" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="31" ec="1" el="53" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="66.66" branchCoverage="50" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="66.66" branchCoverage="50" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>JeremyAnsel.IO.Locator.IWritableFileLocator JeremyAnsel.IO.Locator.WritableFileLocatorFactory::CreateArchive(System.String,SharpCompress.Common.ArchiveType,SharpCompress.Common.CompressionType)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="65" ordinal="0" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="67" ordinal="1" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="2" uspid="70" ordinal="2" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="65" ordinal="0" path="0" offset="6" offsetend="8" sl="65" fileid="13" />
+                <BranchPoint vc="2" uspid="65" ordinal="1" path="1" offset="6" offsetend="19" sl="65" fileid="13" />
+              </BranchPoints>
+              <MethodPoint vc="2" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="65" ec="1" el="70" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>JeremyAnsel.IO.Locator.IWritableFileLocator JeremyAnsel.IO.Locator.WritableFileLocatorFactory::CreateArchive(System.String,SharpCompress.Common.ArchiveType)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="81" ordinal="0" sl="81" sc="1" el="81" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="83" ordinal="1" sl="83" sc="1" el="83" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="86" ordinal="2" sl="86" sc="1" el="86" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="81" ordinal="0" path="0" offset="6" offsetend="8" sl="81" fileid="13" />
+                <BranchPoint vc="0" uspid="81" ordinal="1" path="1" offset="6" offsetend="19" sl="81" fileid="13" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="81" ec="1" el="86" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>JeremyAnsel.IO.Locator.IWritableFileLocator JeremyAnsel.IO.Locator.WritableFileLocatorFactory::CreateArchive(System.IO.Stream,SharpCompress.Common.ArchiveType,SharpCompress.Common.CompressionType)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="98" ordinal="0" sl="98" sc="1" el="98" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="100" ordinal="1" sl="100" sc="1" el="100" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="103" ordinal="2" sl="103" sc="1" el="103" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="98" ordinal="0" path="0" offset="1" offsetend="3" sl="98" fileid="13" />
+                <BranchPoint vc="0" uspid="98" ordinal="1" path="1" offset="1" offsetend="14" sl="98" fileid="13" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="98" ec="1" el="103" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>JeremyAnsel.IO.Locator.IWritableFileLocator JeremyAnsel.IO.Locator.WritableFileLocatorFactory::CreateArchive(System.IO.Stream,SharpCompress.Common.ArchiveType)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="114" ordinal="0" sl="114" sc="1" el="114" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="116" ordinal="1" sl="116" sc="1" el="116" ec="2" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="119" ordinal="2" sl="119" sc="1" el="119" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="114" ordinal="0" path="0" offset="1" offsetend="3" sl="114" fileid="13" />
+                <BranchPoint vc="0" uspid="114" ordinal="1" path="1" offset="1" offsetend="14" sl="114" fileid="13" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="114" ec="1" el="119" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
