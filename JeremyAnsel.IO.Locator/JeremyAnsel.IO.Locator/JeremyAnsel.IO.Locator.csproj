@@ -45,21 +45,4 @@
     <PackageReference Include="SharpCompress" Version="0.24.0" />
   </ItemGroup>
 
-  <UsingTask TaskName="PostBuildTask" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll">
-    <ParameterGroup />
-    <Task>
-      <Using Namespace="System" />
-      <Using Namespace="System.IO" />
-      <Code Type="Fragment" Language="cs">
-        <![CDATA[
-        File.SetLastWriteTime(@"$(TargetDir)SharpCompress.dll", DateTime.Now);
-        ]]>
-      </Code>
-    </Task>
-  </UsingTask>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition=" '$(TargetFramework)' == 'net48' ">
-    <PostBuildTask />
-  </Target>
-
 </Project>
