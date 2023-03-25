@@ -28,6 +28,7 @@ build:
   verbosity: minimal
 
 after_build:
+- if not defined APPVEYOR_PULL_REQUEST_NUMBER JeremyAnsel.IO.Locator\build-doc.cmd
 - if not defined APPVEYOR_PULL_REQUEST_NUMBER 7z a JeremyAnsel.IO.Locator.Documentation.zip .\JeremyAnsel.IO.Locator\Documentation\_site\* > nul
 - if not defined APPVEYOR_PULL_REQUEST_NUMBER appveyor PushArtifact JeremyAnsel.IO.Locator.Documentation.zip
 

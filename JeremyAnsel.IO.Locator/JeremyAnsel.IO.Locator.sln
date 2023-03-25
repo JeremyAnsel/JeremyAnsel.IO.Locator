@@ -3,19 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeremyAnsel.IO.Locator", "JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator.csproj", "{4B468B30-6E6E-4E36-A7CF-48BF0892E566}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeremyAnsel.IO.Locator", "JeremyAnsel.IO.Locator\JeremyAnsel.IO.Locator.csproj", "{4B468B30-6E6E-4E36-A7CF-48BF0892E566}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeremyAnsel.IO.Locator.Tests", "JeremyAnsel.IO.Locator.Tests\JeremyAnsel.IO.Locator.Tests.csproj", "{7C5BE5FC-50D9-453F-B535-0039B56177C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeremyAnsel.IO.Locator.Tests", "JeremyAnsel.IO.Locator.Tests\JeremyAnsel.IO.Locator.Tests.csproj", "{7C5BE5FC-50D9-453F-B535-0039B56177C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeremyAnsel.IO.DiscLocator", "JeremyAnsel.IO.DiscLocator\JeremyAnsel.IO.DiscLocator.csproj", "{7D37EE2C-DB8F-4EDC-88B4-FD3B910FEEF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeremyAnsel.IO.DiscLocator", "JeremyAnsel.IO.DiscLocator\JeremyAnsel.IO.DiscLocator.csproj", "{7D37EE2C-DB8F-4EDC-88B4-FD3B910FEEF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeremyAnsel.IO.DiscLocator.Tests", "JeremyAnsel.IO.DiscLocator.Tests\JeremyAnsel.IO.DiscLocator.Tests.csproj", "{3D39345C-B95E-44E8-A00E-582DF38AF3F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeremyAnsel.IO.DiscLocator.Tests", "JeremyAnsel.IO.DiscLocator.Tests\JeremyAnsel.IO.DiscLocator.Tests.csproj", "{3D39345C-B95E-44E8-A00E-582DF38AF3F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documentation", "Documentation\Documentation.csproj", "{676BF4A7-FB26-4E1E-A972-087DCB0E26B8}"
-	ProjectSection(ProjectDependencies) = postProject
-		{7D37EE2C-DB8F-4EDC-88B4-FD3B910FEEF1} = {7D37EE2C-DB8F-4EDC-88B4-FD3B910FEEF1}
-		{4B468B30-6E6E-4E36-A7CF-48BF0892E566} = {4B468B30-6E6E-4E36-A7CF-48BF0892E566}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Documentation", "Documentation\Documentation.csproj", "{676BF4A7-FB26-4E1E-A972-087DCB0E26B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
