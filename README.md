@@ -1,7 +1,7 @@
 # JeremyAnsel.IO.Locator
 
 [![Build status](https://ci.appveyor.com/api/projects/status/k287tlr4vk3bs5c5/branch/master?svg=true)](https://ci.appveyor.com/project/JeremyAnsel/jeremyansel-io-locator/branch/master)
-[![Code coverage](https://jeremyansel.github.io/JeremyAnsel.IO.Locator/coverage/badge_combined.svg)](https://jeremyansel.github.io/JeremyAnsel.IO.Locator/coverage/)
+[![Code coverage](https://raw.githubusercontent.com/JeremyAnsel/JeremyAnsel.IO.Locator/gh-pages/coverage/badge_combined.svg)](https://jeremyansel.github.io/JeremyAnsel.IO.Locator/coverage/)
 ![License](https://img.shields.io/github/license/JeremyAnsel/JeremyAnsel.IO.Locator)
 
 JeremyAnsel.IO.Locator:
@@ -26,4 +26,16 @@ The supported formats by `FileLocatorFactory` are: file system, Zip, Rar, Tar, 7
 [SharpCompress](https://github.com/adamhathcock/sharpcompress) is used to provide support for compressed archives.
 
 The supported formats by `DiscLocatorFactory` are: Iso, Udf.
-[DiscUtils](https://github.com/discutils/discutils) is used to provide support for disc images.
+[DiscUtils](https://github.com/LTRData/DiscUtils) is used to provide support for disc images.
+
+# Usage
+
+## File locator
+```csharp
+using IFileLocator factory = FileLocatorFactory.Create(filename);
+```
+
+## Disc locator
+```csharp
+using IFileLocator factory = DiscFileLocatorFactory.Create(filename);
+```
