@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "C:/projects/jeremyansel-io-locator/JeremyAnsel.IO.Locator/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -16,8 +15,7 @@
       "source_relative_path": "api/JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.html",
-          "hash": "/jKgU6KldLlGrdOfonOssTTkjHsnQMApif3iXDe6vxY="
+          "relative_path": "api/JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.html"
         }
       },
       "version": ""
@@ -27,8 +25,7 @@
       "source_relative_path": "api/JeremyAnsel.IO.DiscLocator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.IO.DiscLocator.html",
-          "hash": "8WLnl8rdo9d8sXRpJ3Hklift4YZMoGZY2TO2Qb7n0ek="
+          "relative_path": "api/JeremyAnsel.IO.DiscLocator.html"
         }
       },
       "version": ""
@@ -38,8 +35,7 @@
       "source_relative_path": "api/JeremyAnsel.IO.Locator.FileLocatorFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.IO.Locator.FileLocatorFactory.html",
-          "hash": "zn2wn+UIdZtOe6f7tyuhARmjr3ZzBRdEGGhhHovFCzg="
+          "relative_path": "api/JeremyAnsel.IO.Locator.FileLocatorFactory.html"
         }
       },
       "version": ""
@@ -49,8 +45,7 @@
       "source_relative_path": "api/JeremyAnsel.IO.Locator.IFileLocator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.IO.Locator.IFileLocator.html",
-          "hash": "Y5DOSy/FClNRUBki4d2+VxAE5i4V0xsPd4a8JTMAir8="
+          "relative_path": "api/JeremyAnsel.IO.Locator.IFileLocator.html"
         }
       },
       "version": ""
@@ -60,8 +55,7 @@
       "source_relative_path": "api/JeremyAnsel.IO.Locator.IWritableFileLocator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.IO.Locator.IWritableFileLocator.html",
-          "hash": "unJuYbcjyweSp+28Fqep9RtGWpkxijQRrskmCSv5o9Y="
+          "relative_path": "api/JeremyAnsel.IO.Locator.IWritableFileLocator.html"
         }
       },
       "version": ""
@@ -71,8 +65,7 @@
       "source_relative_path": "api/JeremyAnsel.IO.Locator.MemoryFileLocator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.IO.Locator.MemoryFileLocator.html",
-          "hash": "n+XwngqM7WNE/kuF4v2u51ha+L1NHW1W8u+KPc0k43A="
+          "relative_path": "api/JeremyAnsel.IO.Locator.MemoryFileLocator.html"
         }
       },
       "version": ""
@@ -82,8 +75,7 @@
       "source_relative_path": "api/JeremyAnsel.IO.Locator.WritableFileLocatorFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.IO.Locator.WritableFileLocatorFactory.html",
-          "hash": "LCpESZsyHyk1CnKpHLlTslKJKNlFFHqZuLOI7FrCYlA="
+          "relative_path": "api/JeremyAnsel.IO.Locator.WritableFileLocatorFactory.html"
         }
       },
       "version": ""
@@ -93,8 +85,7 @@
       "source_relative_path": "api/JeremyAnsel.IO.Locator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.IO.Locator.html",
-          "hash": "h6Ia97h0Ie4CnmRxfL5ehzzAV9vdnaD6X7RkNyHeskQ="
+          "relative_path": "api/JeremyAnsel.IO.Locator.html"
         }
       },
       "version": ""
@@ -104,8 +95,17 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "L9Yprh70O/ZY/UxfMYelgIYz4gdzHwZGaaHF/b+i5AQ="
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -115,14 +115,22 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "6I+KQQgdG+R6ojA2Kh7QMeH7rstX6voyRJ2xXggPwkA="
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
     }
   ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
