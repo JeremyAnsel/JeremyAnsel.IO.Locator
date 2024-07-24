@@ -30,7 +30,7 @@ namespace JeremyAnsel.IO.DiscLocator
         /// </summary>
         /// <param name="locator">A file locator.</param>
         /// <param name="root">The root path.</param>
-        public IsoFileLocator(IFileLocator locator, string root)
+        public IsoFileLocator(IFileLocator? locator, string root)
             : base(locator, root, stream => new CDReader(stream, true, true))
         {
         }

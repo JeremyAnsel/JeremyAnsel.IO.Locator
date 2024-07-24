@@ -20,14 +20,14 @@ namespace JeremyAnsel.IO.DiscLocator
         /// </summary>
         /// <param name="path">The path.</param>
         /// <returns>A normalized path.</returns>
-        public static string PathNormalize(string path)
+        public static string PathNormalize(string? path)
         {
             if (string.IsNullOrEmpty(path))
             {
                 return string.Empty;
             }
 
-            return path
+            return path!
                 .Replace(Path.AltDirectorySeparatorChar, Path.DirectorySeparatorChar)
                 .TrimStart(Path.DirectorySeparatorChar)
                 .Insert(0, Path.DirectorySeparatorChar.ToString(CultureInfo.InvariantCulture));

@@ -21,12 +21,12 @@ namespace JeremyAnsel.IO.DiscLocator
         /// <summary>
         /// A file stream.
         /// </summary>
-        private Stream fileStream;
+        private Stream? fileStream;
 
         /// <summary>
         /// A disc.
         /// </summary>
-        private DiscFileSystem disc;
+        private DiscFileSystem? disc;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="DiscFsFileLocator"/> class.
@@ -45,7 +45,7 @@ namespace JeremyAnsel.IO.DiscLocator
         /// <param name="locator">A file locator.</param>
         /// <param name="root">The root path.</param>
         /// <param name="create">The create function.</param>
-        protected DiscFsFileLocator(IFileLocator locator, string root, Func<Stream, DiscFileSystem> create)
+        protected DiscFsFileLocator(IFileLocator? locator, string root, Func<Stream, DiscFileSystem> create)
         {
             if (locator != null)
             {
@@ -85,7 +85,7 @@ namespace JeremyAnsel.IO.DiscLocator
         /// <returns>A boolean.</returns>
         public bool Exists(string path)
         {
-            return this.disc.FileExists(Utilities.PathNormalize(path));
+            return this.disc!.FileExists(Utilities.PathNormalize(path));
         }
 
         /// <summary>
@@ -95,7 +95,7 @@ namespace JeremyAnsel.IO.DiscLocator
         /// <returns>A stream.</returns>
         public Stream Open(string path)
         {
-            return this.disc.OpenFile(Utilities.PathNormalize(path), FileMode.Open, FileAccess.Read);
+            return this.disc!.OpenFile(Utilities.PathNormalize(path), FileMode.Open, FileAccess.Read);
         }
 
         /// <summary>
@@ -116,7 +116,7 @@ namespace JeremyAnsel.IO.DiscLocator
         {
             root = Utilities.PathNormalize(root);
 
-            if (!this.disc.DirectoryExists(root))
+            if (!this.disc!.DirectoryExists(root))
             {
                 yield break;
             }

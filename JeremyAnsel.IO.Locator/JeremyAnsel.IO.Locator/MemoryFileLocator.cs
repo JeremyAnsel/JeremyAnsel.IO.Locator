@@ -19,7 +19,7 @@ namespace JeremyAnsel.IO.Locator
         /// <summary>
         /// The database.
         /// </summary>
-        private Dictionary<string, byte[]> database;
+        private readonly Dictionary<string, byte[]> database;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="MemoryFileLocator"/> class.
@@ -108,7 +108,7 @@ namespace JeremyAnsel.IO.Locator
         /// Create a file.
         /// </summary>
         /// <param name="path">A path.</param>
-        public void Create(string path)
+        public void Create(string? path)
         {
             if (string.IsNullOrEmpty(path))
             {
@@ -134,7 +134,7 @@ namespace JeremyAnsel.IO.Locator
         /// </summary>
         /// <param name="path">A path.</param>
         /// <param name="data">The data.</param>
-        public void Write(string path, Stream data)
+        public void Write(string path, Stream? data)
         {
             if (string.IsNullOrEmpty(path))
             {
@@ -165,7 +165,7 @@ namespace JeremyAnsel.IO.Locator
         /// Write the files from a file locator.
         /// </summary>
         /// <param name="locator">A file locator.</param>
-        public void WriteAll(IFileLocator locator)
+        public void WriteAll(IFileLocator? locator)
         {
             this.WriteAll(locator, string.Empty);
         }
@@ -175,7 +175,7 @@ namespace JeremyAnsel.IO.Locator
         /// </summary>
         /// <param name="locator">A file locator.</param>
         /// <param name="root">The root path.</param>
-        public void WriteAll(IFileLocator locator, string root)
+        public void WriteAll(IFileLocator? locator, string root)
         {
             if (locator == null)
             {
@@ -184,10 +184,8 @@ namespace JeremyAnsel.IO.Locator
 
             foreach (var file in locator.EnumerateFiles(root))
             {
-                using (var stream = locator.Open(file))
-                {
-                    this.Write(file, stream);
-                }
+                using var stream = locator.Open(file);
+                this.Write(file, stream);
             }
         }
     }

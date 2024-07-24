@@ -26,7 +26,7 @@ namespace JeremyAnsel.IO.Locator
         /// <param name="root">The root path.</param>
         /// <returns>A writable file locator.</returns>
         [SuppressMessage("Microsoft.Globalization", "CA1308:NormalizeStringsToUppercase", Justification = "Reviewed")]
-        public static IWritableFileLocator Create(string root)
+        public static IWritableFileLocator Create(string? root)
         {
             if (string.IsNullOrEmpty(root))
             {
@@ -37,20 +37,15 @@ namespace JeremyAnsel.IO.Locator
 
             if (!string.IsNullOrEmpty(ext))
             {
-                switch (ext.ToLowerInvariant())
+                return ext.ToLowerInvariant() switch
                 {
-                    case ".zip":
-                        return new ArchiveWritableFileLocator(root, ArchiveType.Zip, CompressionType.Deflate);
-
-                    case ".gz":
-                        return new ArchiveWritableFileLocator(root, ArchiveType.GZip, CompressionType.GZip);
-
-                    default:
-                        throw new NotSupportedException();
-                }
+                    ".zip" => new ArchiveWritableFileLocator(root!, ArchiveType.Zip, CompressionType.Deflate),
+                    ".gz" => new ArchiveWritableFileLocator(root!, ArchiveType.GZip, CompressionType.GZip),
+                    _ => throw new NotSupportedException(),
+                };
             }
 
-            return new SystemWritableFileLocator(root);
+            return new SystemWritableFileLocator(root!);
         }
 
         /// <summary>
@@ -60,14 +55,14 @@ namespace JeremyAnsel.IO.Locator
         /// <param name="archiveType">The archive type.</param>
         /// <param name="compressionType">The compression type.</param>
         /// <returns>A writable file locator.</returns>
-        public static IWritableFileLocator CreateArchive(string root, ArchiveType archiveType, CompressionType compressionType)
+        public static IWritableFileLocator CreateArchive(string? root, ArchiveType archiveType, CompressionType compressionType)
         {
             if (string.IsNullOrEmpty(root))
             {
                 throw new ArgumentNullException(nameof(root));
             }
 
-            return new ArchiveWritableFileLocator(root, archiveType, compressionType);
+            return new ArchiveWritableFileLocator(root!, archiveType, compressionType);
         }
 
         /// <summary>
@@ -76,14 +71,14 @@ namespace JeremyAnsel.IO.Locator
         /// <param name="root">The root path.</param>
         /// <param name="archiveType">The archive type.</param>
         /// <returns>A writable file locator.</returns>
-        public static IWritableFileLocator CreateArchive(string root, ArchiveType archiveType)
+        public static IWritableFileLocator CreateArchive(string? root, ArchiveType archiveType)
         {
             if (string.IsNullOrEmpty(root))
             {
                 throw new ArgumentNullException(nameof(root));
             }
 
-            return new ArchiveWritableFileLocator(root, archiveType, CompressionType.Deflate);
+            return new ArchiveWritableFileLocator(root!, archiveType, CompressionType.Deflate);
         }
 
         /// <summary>
@@ -93,7 +88,7 @@ namespace JeremyAnsel.IO.Locator
         /// <param name="archiveType">The archive type.</param>
         /// <param name="compressionType">The compression type.</param>
         /// <returns>A writable file locator.</returns>
-        public static IWritableFileLocator CreateArchive(Stream root, ArchiveType archiveType, CompressionType compressionType)
+        public static IWritableFileLocator CreateArchive(Stream? root, ArchiveType archiveType, CompressionType compressionType)
         {
             if (root == null)
             {
@@ -109,7 +104,7 @@ namespace JeremyAnsel.IO.Locator
         /// <param name="root">A stream.</param>
         /// <param name="archiveType">The archive type.</param>
         /// <returns>A writable file locator.</returns>
-        public static IWritableFileLocator CreateArchive(Stream root, ArchiveType archiveType)
+        public static IWritableFileLocator CreateArchive(Stream? root, ArchiveType archiveType)
         {
             if (root == null)
             {

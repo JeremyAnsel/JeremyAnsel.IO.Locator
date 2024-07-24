@@ -30,7 +30,7 @@ namespace JeremyAnsel.IO.DiscLocator
         /// </summary>
         /// <param name="locator">A file locator</param>
         /// <param name="root">The root path.</param>
-        public UdfFileLocator(IFileLocator locator, string root)
+        public UdfFileLocator(IFileLocator? locator, string root)
             : base(locator, root, stream => new UdfReader(stream))
         {
         }

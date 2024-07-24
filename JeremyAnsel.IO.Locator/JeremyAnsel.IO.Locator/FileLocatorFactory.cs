@@ -23,7 +23,7 @@ namespace JeremyAnsel.IO.Locator
         /// </summary>
         /// <param name="root">The root path.</param>
         /// <returns>A file locator.</returns>
-        public static IFileLocator Create(string root)
+        public static IFileLocator Create(string? root)
         {
             if (string.IsNullOrEmpty(root))
             {
@@ -32,10 +32,10 @@ namespace JeremyAnsel.IO.Locator
 
             if (Path.HasExtension(root))
             {
-                return new ArchiveFileLocator(root);
+                return new ArchiveFileLocator(root!);
             }
 
-            return new SystemFileLocator(root);
+            return new SystemFileLocator(root!);
         }
 
         /// <summary>
@@ -44,7 +44,7 @@ namespace JeremyAnsel.IO.Locator
         /// <param name="locator">The source file locator.</param>
         /// <param name="root">The root path.</param>
         /// <returns>A file locator.</returns>
-        public static IFileLocator Create(IFileLocator locator, string root)
+        public static IFileLocator Create(IFileLocator? locator, string? root)
         {
             if (locator == null)
             {
@@ -69,7 +69,7 @@ namespace JeremyAnsel.IO.Locator
         /// </summary>
         /// <param name="root">A stream.</param>
         /// <returns>A file locator.</returns>
-        public static IFileLocator Create(Stream root)
+        public static IFileLocator Create(Stream? root)
         {
             if (root == null)
             {

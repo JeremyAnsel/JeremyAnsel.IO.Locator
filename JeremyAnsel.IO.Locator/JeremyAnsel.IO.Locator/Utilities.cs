@@ -20,14 +20,14 @@ namespace JeremyAnsel.IO.Locator
         /// </summary>
         /// <param name="path">The path.</param>
         /// <returns>A normalized path.</returns>
-        public static string PathNormalize(string path)
+        public static string PathNormalize(string? path)
         {
             if (string.IsNullOrEmpty(path))
             {
                 return string.Empty;
             }
 
-            return path
+            return path!
                 .Replace(Path.AltDirectorySeparatorChar, Path.DirectorySeparatorChar)
                 .TrimStart(Path.DirectorySeparatorChar);
         }
@@ -38,7 +38,7 @@ namespace JeremyAnsel.IO.Locator
         /// <param name="path1">The first path.</param>
         /// <param name="path2">The second path.</param>
         /// <returns>A boolean.</returns>
-        public static bool PathEquals(string path1, string path2)
+        public static bool PathEquals(string? path1, string? path2)
         {
             path1 = Utilities.PathNormalize(path1);
             path2 = Utilities.PathNormalize(path2);
@@ -52,7 +52,7 @@ namespace JeremyAnsel.IO.Locator
         /// <param name="path1">The first path.</param>
         /// <param name="path2">The second path.</param>
         /// <returns>A boolean.</returns>
-        public static bool PathStartsWith(string path1, string path2)
+        public static bool PathStartsWith(string? path1, string? path2)
         {
             path1 = Utilities.PathNormalize(path1);
             path2 = Utilities.PathNormalize(path2);

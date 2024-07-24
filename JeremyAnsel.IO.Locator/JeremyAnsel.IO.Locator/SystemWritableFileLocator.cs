@@ -18,7 +18,7 @@ namespace JeremyAnsel.IO.Locator
         /// <summary>
         /// The root path.
         /// </summary>
-        private string rootPath;
+        private readonly string rootPath;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="SystemWritableFileLocator"/> class.
@@ -60,7 +60,7 @@ namespace JeremyAnsel.IO.Locator
                 throw new ArgumentOutOfRangeException(nameof(path));
             }
 
-            string dirPath = Path.GetDirectoryName(fullPath);
+            string dirPath = Path.GetDirectoryName(fullPath)!;
 
             if (!Directory.Exists(dirPath))
             {
@@ -77,7 +77,7 @@ namespace JeremyAnsel.IO.Locator
         /// </summary>
         /// <param name="path">A path.</param>
         /// <param name="data">The data.</param>
-        public void Write(string path, Stream data)
+        public void Write(string path, Stream? data)
         {
             if (string.IsNullOrEmpty(path))
             {
@@ -101,7 +101,7 @@ namespace JeremyAnsel.IO.Locator
         /// Write the files from a file locator.
         /// </summary>
         /// <param name="locator">A file locator.</param>
-        public void WriteAll(IFileLocator locator)
+        public void WriteAll(IFileLocator? locator)
         {
             this.WriteAll(locator, string.Empty);
         }
@@ -111,7 +111,7 @@ namespace JeremyAnsel.IO.Locator
         /// </summary>
         /// <param name="locator">A file locator.</param>
         /// <param name="root">The root path.</param>
-        public void WriteAll(IFileLocator locator, string root)
+        public void WriteAll(IFileLocator? locator, string root)
         {
             if (locator == null)
             {
@@ -120,10 +120,8 @@ namespace JeremyAnsel.IO.Locator
 
             foreach (var file in locator.EnumerateFiles(root))
             {
-                using (var stream = locator.Open(file))
-                {
-                    this.Write(file, stream);
-                }
+                using var stream = locator.Open(file);
+                this.Write(file, stream);
             }
         }
     }

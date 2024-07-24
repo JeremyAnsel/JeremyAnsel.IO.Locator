@@ -20,12 +20,12 @@ namespace JeremyAnsel.IO.Locator
         /// <summary>
         /// A file stream.
         /// </summary>
-        private Stream fileStream;
+        private Stream? fileStream;
 
         /// <summary>
         /// an archive.
         /// </summary>
-        private IArchive archive;
+        private IArchive? archive;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ArchiveFileLocator"/> class.
@@ -41,7 +41,7 @@ namespace JeremyAnsel.IO.Locator
         /// </summary>
         /// <param name="locator">A file locator.</param>
         /// <param name="root">The root path.</param>
-        public ArchiveFileLocator(IFileLocator locator, string root)
+        public ArchiveFileLocator(IFileLocator? locator, string root)
         {
             if (locator != null)
             {
@@ -95,7 +95,7 @@ namespace JeremyAnsel.IO.Locator
                 return false;
             }
 
-            foreach (var entry in this.archive.Entries)
+            foreach (var entry in this.archive!.Entries)
             {
                 if (entry.IsDirectory)
                 {
@@ -123,7 +123,7 @@ namespace JeremyAnsel.IO.Locator
                 throw new ArgumentNullException(nameof(path));
             }
 
-            foreach (var entry in this.archive.Entries)
+            foreach (var entry in this.archive!.Entries)
             {
                 if (entry.IsDirectory)
                 {
@@ -155,7 +155,7 @@ namespace JeremyAnsel.IO.Locator
         /// <returns>An enumeration.</returns>
         public IEnumerable<string> EnumerateFiles(string root)
         {
-            foreach (var entry in this.archive.Entries)
+            foreach (var entry in this.archive!.Entries)
             {
                 if (entry.IsDirectory)
                 {

@@ -30,21 +30,21 @@ namespace JeremyAnsel.IO.DiscLocator
         /// </summary>
         /// <param name="root">The root path.</param>
         /// <returns>A file locator.</returns>
-        public static IFileLocator Create(string root)
+        public static IFileLocator Create(string? root)
         {
             if (string.IsNullOrEmpty(root))
             {
                 throw new ArgumentNullException(nameof(root));
             }
 
-            if (DiscFileLocatorFactory.IsDisc(root, IsoFileLocator.IsIsoFile))
+            if (DiscFileLocatorFactory.IsDisc(root!, IsoFileLocator.IsIsoFile))
             {
-                return new IsoFileLocator(root);
+                return new IsoFileLocator(root!);
             }
 
-            if (DiscFileLocatorFactory.IsDisc(root, UdfFileLocator.IsUdfFile))
+            if (DiscFileLocatorFactory.IsDisc(root!, UdfFileLocator.IsUdfFile))
             {
-                return new UdfFileLocator(root);
+                return new UdfFileLocator(root!);
             }
 
             throw new NotSupportedException();
@@ -56,7 +56,7 @@ namespace JeremyAnsel.IO.DiscLocator
         /// <param name="locator">The locator.</param>
         /// <param name="root">The root path.</param>
         /// <returns>A file locator.</returns>
-        public static IFileLocator Create(IFileLocator locator, string root)
+        public static IFileLocator Create(IFileLocator? locator, string? root)
         {
             if (locator == null)
             {
@@ -68,14 +68,14 @@ namespace JeremyAnsel.IO.DiscLocator
                 throw new ArgumentNullException(nameof(root));
             }
 
-            if (DiscFileLocatorFactory.IsDisc(locator, root, IsoFileLocator.IsIsoFile))
+            if (DiscFileLocatorFactory.IsDisc(locator, root!, IsoFileLocator.IsIsoFile))
             {
-                return new IsoFileLocator(locator, root);
+                return new IsoFileLocator(locator, root!);
             }
 
-            if (DiscFileLocatorFactory.IsDisc(locator, root, UdfFileLocator.IsUdfFile))
+            if (DiscFileLocatorFactory.IsDisc(locator, root!, UdfFileLocator.IsUdfFile))
             {
-                return new UdfFileLocator(locator, root);
+                return new UdfFileLocator(locator, root!);
             }
 
             throw new NotSupportedException();
@@ -86,7 +86,7 @@ namespace JeremyAnsel.IO.DiscLocator
         /// </summary>
         /// <param name="root">The stream.</param>
         /// <returns>A file locator.</returns>
-        public static IFileLocator Create(Stream root)
+        public static IFileLocator Create(Stream? root)
         {
             if (root == null)
             {
@@ -116,10 +116,8 @@ namespace JeremyAnsel.IO.DiscLocator
         /// <returns>A boolean.</returns>
         private static bool IsDisc(string root, Func<Stream, bool> detect)
         {
-            using (var file = File.OpenRead(root))
-            {
-                return detect(file);
-            }
+            using var file = File.OpenRead(root);
+            return detect(file);
         }
 
         /// <summary>
@@ -131,10 +129,8 @@ namespace JeremyAnsel.IO.DiscLocator
         /// <returns>A boolean.</returns>
         private static bool IsDisc(IFileLocator locator, string root, Func<Stream, bool> detect)
         {
-            using (var file = locator.Open(root))
-            {
-                return detect(file);
-            }
+            using var file = locator.Open(root);
+            return detect(file);
         }
     }
 }

@@ -19,12 +19,12 @@ namespace JeremyAnsel.IO.Locator
         /// <summary>
         /// A file locator.
         /// </summary>
-        private IFileLocator locator;
+        private readonly IFileLocator? locator;
 
         /// <summary>
         /// The root path.
         /// </summary>
-        private string rootPath;
+        private readonly string rootPath;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="SystemFileLocator"/> class.
@@ -45,7 +45,7 @@ namespace JeremyAnsel.IO.Locator
         /// </summary>
         /// <param name="locator">A file locator.</param>
         /// <param name="root">The root path.</param>
-        public SystemFileLocator(IFileLocator locator, string root)
+        public SystemFileLocator(IFileLocator? locator, string root)
         {
             if (locator == null && !Directory.Exists(root))
             {
@@ -129,7 +129,7 @@ namespace JeremyAnsel.IO.Locator
 
             foreach (var file in results)
             {
-                yield return Utilities.PathNormalize(Utilities.PathNormalize(file).Substring(fullPath.Length));
+                yield return Utilities.PathNormalize(Utilities.PathNormalize(file)[fullPath.Length..]);
             }
         }
     }

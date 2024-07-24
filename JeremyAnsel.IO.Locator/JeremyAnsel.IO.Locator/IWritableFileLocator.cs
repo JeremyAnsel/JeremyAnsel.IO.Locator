@@ -26,19 +26,19 @@ namespace JeremyAnsel.IO.Locator
         /// </summary>
         /// <param name="path">A path.</param>
         /// <param name="data">The data.</param>
-        void Write(string path, Stream data);
+        void Write(string path, Stream? data);
 
         /// <summary>
         /// Write the files from a file locator.
         /// </summary>
         /// <param name="locator">A file locator.</param>
-        void WriteAll(IFileLocator locator);
+        void WriteAll(IFileLocator? locator);
 
         /// <summary>
         /// Write the files from a file locator.
         /// </summary>
         /// <param name="locator">A file locator.</param>
         /// <param name="root">The root path.</param>
-        void WriteAll(IFileLocator locator, string root);
+        void WriteAll(IFileLocator? locator, string root);
     }
 }
