@@ -221,7 +221,7 @@ var assemblies = [
   {
     "name": "JeremyAnsel.IO.DiscLocator",
     "classes": [
-      { "name": "JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory", "rp": "JeremyAnsel.IO.DiscLocator_DiscFileLocatorFactory.html", "cl": 7, "ucl": 27, "cal": 34, "tl": 141, "cb": 3, "tb": 20, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory", "rp": "JeremyAnsel.IO.DiscLocator_DiscFileLocatorFactory.html", "cl": 7, "ucl": 27, "cal": 34, "tl": 137, "cb": 3, "tb": 20, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "JeremyAnsel.IO.DiscLocator.DiscFsFileLocator", "rp": "JeremyAnsel.IO.DiscLocator_DiscFsFileLocator.html", "cl": 0, "ucl": 33, "cal": 33, "tl": 153, "cb": 0, "tb": 12, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "JeremyAnsel.IO.DiscLocator.IsoFileLocator", "rp": "JeremyAnsel.IO.DiscLocator_IsoFileLocator.html", "cl": 1, "ucl": 6, "cal": 7, "tl": 58, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "JeremyAnsel.IO.DiscLocator.UdfFileLocator", "rp": "JeremyAnsel.IO.DiscLocator_UdfFileLocator.html", "cl": 1, "ucl": 6, "cal": 7, "tl": 58, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
@@ -231,13 +231,13 @@ var assemblies = [
     "name": "JeremyAnsel.IO.Locator",
     "classes": [
       { "name": "JeremyAnsel.IO.Locator.ArchiveFileLocator", "rp": "JeremyAnsel.IO.Locator_ArchiveFileLocator.html", "cl": 21, "ucl": 63, "cal": 84, "tl": 345, "cb": 15, "tb": 56, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "JeremyAnsel.IO.Locator.ArchiveWritableFileLocator", "rp": "JeremyAnsel.IO.Locator_ArchiveWritableFileLocator.html", "cl": 51, "ucl": 71, "cal": 122, "tl": 393, "cb": 18, "tb": 48, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "JeremyAnsel.IO.Locator.ArchiveWritableFileLocator", "rp": "JeremyAnsel.IO.Locator_ArchiveWritableFileLocator.html", "cl": 49, "ucl": 69, "cal": 118, "tl": 385, "cb": 18, "tb": 48, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "JeremyAnsel.IO.Locator.FileLocatorFactory", "rp": "JeremyAnsel.IO.Locator_FileLocatorFactory.html", "cl": 3, "ucl": 27, "cal": 30, "tl": 165, "cb": 2, "tb": 24, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "JeremyAnsel.IO.Locator.MemoryFileLocator", "rp": "JeremyAnsel.IO.Locator_MemoryFileLocator.html", "cl": 30, "ucl": 60, "cal": 90, "tl": 389, "cb": 10, "tb": 36, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "JeremyAnsel.IO.Locator.MemoryFileLocator", "rp": "JeremyAnsel.IO.Locator_MemoryFileLocator.html", "cl": 29, "ucl": 59, "cal": 88, "tl": 385, "cb": 10, "tb": 36, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "JeremyAnsel.IO.Locator.SystemFileLocator", "rp": "JeremyAnsel.IO.Locator_SystemFileLocator.html", "cl": 0, "ucl": 58, "cal": 58, "tl": 273, "cb": 0, "tb": 28, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "JeremyAnsel.IO.Locator.SystemWritableFileLocator", "rp": "JeremyAnsel.IO.Locator_SystemWritableFileLocator.html", "cl": 0, "ucl": 72, "cal": 72, "tl": 261, "cb": 0, "tb": 36, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "JeremyAnsel.IO.Locator.SystemWritableFileLocator", "rp": "JeremyAnsel.IO.Locator_SystemWritableFileLocator.html", "cl": 0, "ucl": 70, "cal": 70, "tl": 257, "cb": 0, "tb": 36, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "JeremyAnsel.IO.Locator.Utilities", "rp": "JeremyAnsel.IO.Locator_Utilities.html", "cl": 11, "ucl": 11, "cal": 22, "tl": 127, "cb": 2, "tb": 4, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "JeremyAnsel.IO.Locator.WritableFileLocatorFactory", "rp": "JeremyAnsel.IO.Locator_WritableFileLocatorFactory.html", "cl": 2, "ucl": 40, "cal": 42, "tl": 245, "cb": 1, "tb": 32, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "JeremyAnsel.IO.Locator.WritableFileLocatorFactory", "rp": "JeremyAnsel.IO.Locator_WritableFileLocatorFactory.html", "cl": 2, "ucl": 44, "cal": 46, "tl": 235, "cb": 1, "tb": 32, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
 ];
 
@@ -318,7 +318,7 @@ var riskHotspots = [
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.ArchiveWritableFileLocator", "reportPath": "JeremyAnsel.IO.Locator_ArchiveWritableFileLocator.html", "methodName": "Write(System.String,System.IO.Stream)", "methodShortName": "Write(...)", "fileIndex": 0, "line": 145,
+    "assembly": "JeremyAnsel.IO.Locator", "class": "JeremyAnsel.IO.Locator.ArchiveWritableFileLocator", "reportPath": "JeremyAnsel.IO.Locator_ArchiveWritableFileLocator.html", "methodName": "Write(System.String,System.IO.Stream)", "methodShortName": "Write(...)", "fileIndex": 0, "line": 143,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
