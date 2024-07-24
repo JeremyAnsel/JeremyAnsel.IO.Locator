@@ -14,28 +14,31 @@ references:
   fullName: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory
   nameWithType: DiscFileLocatorFactory
 - uid: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(JeremyAnsel.IO.Locator.IFileLocator,System.String)
-  name: Create(IFileLocator, string)
+  name: Create(IFileLocator?, string?)
   href: api/JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.html#JeremyAnsel_IO_DiscLocator_DiscFileLocatorFactory_Create_JeremyAnsel_IO_Locator_IFileLocator_System_String_
   commentId: M:JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(JeremyAnsel.IO.Locator.IFileLocator,System.String)
   name.vb: Create(IFileLocator, String)
-  fullName: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(JeremyAnsel.IO.Locator.IFileLocator, string)
+  fullName: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(JeremyAnsel.IO.Locator.IFileLocator?, string?)
   fullName.vb: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(JeremyAnsel.IO.Locator.IFileLocator, String)
-  nameWithType: DiscFileLocatorFactory.Create(IFileLocator, string)
+  nameWithType: DiscFileLocatorFactory.Create(IFileLocator?, string?)
   nameWithType.vb: DiscFileLocatorFactory.Create(IFileLocator, String)
 - uid: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(System.IO.Stream)
-  name: Create(Stream)
+  name: Create(Stream?)
   href: api/JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.html#JeremyAnsel_IO_DiscLocator_DiscFileLocatorFactory_Create_System_IO_Stream_
   commentId: M:JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(System.IO.Stream)
-  fullName: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(System.IO.Stream)
-  nameWithType: DiscFileLocatorFactory.Create(Stream)
+  name.vb: Create(Stream)
+  fullName: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(System.IO.Stream?)
+  fullName.vb: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(System.IO.Stream)
+  nameWithType: DiscFileLocatorFactory.Create(Stream?)
+  nameWithType.vb: DiscFileLocatorFactory.Create(Stream)
 - uid: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(System.String)
-  name: Create(string)
+  name: Create(string?)
   href: api/JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.html#JeremyAnsel_IO_DiscLocator_DiscFileLocatorFactory_Create_System_String_
   commentId: M:JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(System.String)
   name.vb: Create(String)
-  fullName: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(string)
+  fullName: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(string?)
   fullName.vb: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create(String)
-  nameWithType: DiscFileLocatorFactory.Create(string)
+  nameWithType: DiscFileLocatorFactory.Create(string?)
   nameWithType.vb: DiscFileLocatorFactory.Create(String)
 - uid: JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.Create*
   name: Create
@@ -57,28 +60,31 @@ references:
   fullName: JeremyAnsel.IO.Locator.FileLocatorFactory
   nameWithType: FileLocatorFactory
 - uid: JeremyAnsel.IO.Locator.FileLocatorFactory.Create(JeremyAnsel.IO.Locator.IFileLocator,System.String)
-  name: Create(IFileLocator, string)
+  name: Create(IFileLocator?, string?)
   href: api/JeremyAnsel.IO.Locator.FileLocatorFactory.html#JeremyAnsel_IO_Locator_FileLocatorFactory_Create_JeremyAnsel_IO_Locator_IFileLocator_System_String_
   commentId: M:JeremyAnsel.IO.Locator.FileLocatorFactory.Create(JeremyAnsel.IO.Locator.IFileLocator,System.String)
   name.vb: Create(IFileLocator, String)
-  fullName: JeremyAnsel.IO.Locator.FileLocatorFactory.Create(JeremyAnsel.IO.Locator.IFileLocator, string)
+  fullName: JeremyAnsel.IO.Locator.FileLocatorFactory.Create(JeremyAnsel.IO.Locator.IFileLocator?, string?)
   fullName.vb: JeremyAnsel.IO.Locator.FileLocatorFactory.Create(JeremyAnsel.IO.Locator.IFileLocator, String)
-  nameWithType: FileLocatorFactory.Create(IFileLocator, string)
+  nameWithType: FileLocatorFactory.Create(IFileLocator?, string?)
   nameWithType.vb: FileLocatorFactory.Create(IFileLocator, String)
 - uid: JeremyAnsel.IO.Locator.FileLocatorFactory.Create(System.IO.Stream)
-  name: Create(Stream)
+  name: Create(Stream?)
   href: api/JeremyAnsel.IO.Locator.FileLocatorFactory.html#JeremyAnsel_IO_Locator_FileLocatorFactory_Create_System_IO_Stream_
   commentId: M:JeremyAnsel.IO.Locator.FileLocatorFactory.Create(System.IO.Stream)
-  fullName: JeremyAnsel.IO.Locator.FileLocatorFactory.Create(System.IO.Stream)
-  nameWithType: FileLocatorFactory.Create(Stream)
+  name.vb: Create(Stream)
+  fullName: JeremyAnsel.IO.Locator.FileLocatorFactory.Create(System.IO.Stream?)
+  fullName.vb: JeremyAnsel.IO.Locator.FileLocatorFactory.Create(System.IO.Stream)
+  nameWithType: FileLocatorFactory.Create(Stream?)
+  nameWithType.vb: FileLocatorFactory.Create(Stream)
 - uid: JeremyAnsel.IO.Locator.FileLocatorFactory.Create(System.String)
-  name: Create(string)
+  name: Create(string?)
   href: api/JeremyAnsel.IO.Locator.FileLocatorFactory.html#JeremyAnsel_IO_Locator_FileLocatorFactory_Create_System_String_
   commentId: M:JeremyAnsel.IO.Locator.FileLocatorFactory.Create(System.String)
   name.vb: Create(String)
-  fullName: JeremyAnsel.IO.Locator.FileLocatorFactory.Create(string)
+  fullName: JeremyAnsel.IO.Locator.FileLocatorFactory.Create(string?)
   fullName.vb: JeremyAnsel.IO.Locator.FileLocatorFactory.Create(String)
-  nameWithType: FileLocatorFactory.Create(string)
+  nameWithType: FileLocatorFactory.Create(string?)
   nameWithType.vb: FileLocatorFactory.Create(String)
 - uid: JeremyAnsel.IO.Locator.FileLocatorFactory.Create*
   name: Create
@@ -170,13 +176,13 @@ references:
   fullName: JeremyAnsel.IO.Locator.IWritableFileLocator.Create
   nameWithType: IWritableFileLocator.Create
 - uid: JeremyAnsel.IO.Locator.IWritableFileLocator.Write(System.String,System.IO.Stream)
-  name: Write(string, Stream)
+  name: Write(string, Stream?)
   href: api/JeremyAnsel.IO.Locator.IWritableFileLocator.html#JeremyAnsel_IO_Locator_IWritableFileLocator_Write_System_String_System_IO_Stream_
   commentId: M:JeremyAnsel.IO.Locator.IWritableFileLocator.Write(System.String,System.IO.Stream)
   name.vb: Write(String, Stream)
-  fullName: JeremyAnsel.IO.Locator.IWritableFileLocator.Write(string, System.IO.Stream)
+  fullName: JeremyAnsel.IO.Locator.IWritableFileLocator.Write(string, System.IO.Stream?)
   fullName.vb: JeremyAnsel.IO.Locator.IWritableFileLocator.Write(String, System.IO.Stream)
-  nameWithType: IWritableFileLocator.Write(string, Stream)
+  nameWithType: IWritableFileLocator.Write(string, Stream?)
   nameWithType.vb: IWritableFileLocator.Write(String, Stream)
 - uid: JeremyAnsel.IO.Locator.IWritableFileLocator.Write*
   name: Write
@@ -186,19 +192,22 @@ references:
   fullName: JeremyAnsel.IO.Locator.IWritableFileLocator.Write
   nameWithType: IWritableFileLocator.Write
 - uid: JeremyAnsel.IO.Locator.IWritableFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator)
-  name: WriteAll(IFileLocator)
+  name: WriteAll(IFileLocator?)
   href: api/JeremyAnsel.IO.Locator.IWritableFileLocator.html#JeremyAnsel_IO_Locator_IWritableFileLocator_WriteAll_JeremyAnsel_IO_Locator_IFileLocator_
   commentId: M:JeremyAnsel.IO.Locator.IWritableFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator)
-  fullName: JeremyAnsel.IO.Locator.IWritableFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator)
-  nameWithType: IWritableFileLocator.WriteAll(IFileLocator)
+  name.vb: WriteAll(IFileLocator)
+  fullName: JeremyAnsel.IO.Locator.IWritableFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator?)
+  fullName.vb: JeremyAnsel.IO.Locator.IWritableFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator)
+  nameWithType: IWritableFileLocator.WriteAll(IFileLocator?)
+  nameWithType.vb: IWritableFileLocator.WriteAll(IFileLocator)
 - uid: JeremyAnsel.IO.Locator.IWritableFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator,System.String)
-  name: WriteAll(IFileLocator, string)
+  name: WriteAll(IFileLocator?, string)
   href: api/JeremyAnsel.IO.Locator.IWritableFileLocator.html#JeremyAnsel_IO_Locator_IWritableFileLocator_WriteAll_JeremyAnsel_IO_Locator_IFileLocator_System_String_
   commentId: M:JeremyAnsel.IO.Locator.IWritableFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator,System.String)
   name.vb: WriteAll(IFileLocator, String)
-  fullName: JeremyAnsel.IO.Locator.IWritableFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator, string)
+  fullName: JeremyAnsel.IO.Locator.IWritableFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator?, string)
   fullName.vb: JeremyAnsel.IO.Locator.IWritableFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator, String)
-  nameWithType: IWritableFileLocator.WriteAll(IFileLocator, string)
+  nameWithType: IWritableFileLocator.WriteAll(IFileLocator?, string)
   nameWithType.vb: IWritableFileLocator.WriteAll(IFileLocator, String)
 - uid: JeremyAnsel.IO.Locator.IWritableFileLocator.WriteAll*
   name: WriteAll
@@ -246,13 +255,13 @@ references:
   fullName: JeremyAnsel.IO.Locator.MemoryFileLocator.Clear
   nameWithType: MemoryFileLocator.Clear
 - uid: JeremyAnsel.IO.Locator.MemoryFileLocator.Create(System.String)
-  name: Create(string)
+  name: Create(string?)
   href: api/JeremyAnsel.IO.Locator.MemoryFileLocator.html#JeremyAnsel_IO_Locator_MemoryFileLocator_Create_System_String_
   commentId: M:JeremyAnsel.IO.Locator.MemoryFileLocator.Create(System.String)
   name.vb: Create(String)
-  fullName: JeremyAnsel.IO.Locator.MemoryFileLocator.Create(string)
+  fullName: JeremyAnsel.IO.Locator.MemoryFileLocator.Create(string?)
   fullName.vb: JeremyAnsel.IO.Locator.MemoryFileLocator.Create(String)
-  nameWithType: MemoryFileLocator.Create(string)
+  nameWithType: MemoryFileLocator.Create(string?)
   nameWithType.vb: MemoryFileLocator.Create(String)
 - uid: JeremyAnsel.IO.Locator.MemoryFileLocator.Create*
   name: Create
@@ -342,13 +351,13 @@ references:
   fullName: JeremyAnsel.IO.Locator.MemoryFileLocator.Open
   nameWithType: MemoryFileLocator.Open
 - uid: JeremyAnsel.IO.Locator.MemoryFileLocator.Write(System.String,System.IO.Stream)
-  name: Write(string, Stream)
+  name: Write(string, Stream?)
   href: api/JeremyAnsel.IO.Locator.MemoryFileLocator.html#JeremyAnsel_IO_Locator_MemoryFileLocator_Write_System_String_System_IO_Stream_
   commentId: M:JeremyAnsel.IO.Locator.MemoryFileLocator.Write(System.String,System.IO.Stream)
   name.vb: Write(String, Stream)
-  fullName: JeremyAnsel.IO.Locator.MemoryFileLocator.Write(string, System.IO.Stream)
+  fullName: JeremyAnsel.IO.Locator.MemoryFileLocator.Write(string, System.IO.Stream?)
   fullName.vb: JeremyAnsel.IO.Locator.MemoryFileLocator.Write(String, System.IO.Stream)
-  nameWithType: MemoryFileLocator.Write(string, Stream)
+  nameWithType: MemoryFileLocator.Write(string, Stream?)
   nameWithType.vb: MemoryFileLocator.Write(String, Stream)
 - uid: JeremyAnsel.IO.Locator.MemoryFileLocator.Write*
   name: Write
@@ -358,19 +367,22 @@ references:
   fullName: JeremyAnsel.IO.Locator.MemoryFileLocator.Write
   nameWithType: MemoryFileLocator.Write
 - uid: JeremyAnsel.IO.Locator.MemoryFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator)
-  name: WriteAll(IFileLocator)
+  name: WriteAll(IFileLocator?)
   href: api/JeremyAnsel.IO.Locator.MemoryFileLocator.html#JeremyAnsel_IO_Locator_MemoryFileLocator_WriteAll_JeremyAnsel_IO_Locator_IFileLocator_
   commentId: M:JeremyAnsel.IO.Locator.MemoryFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator)
-  fullName: JeremyAnsel.IO.Locator.MemoryFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator)
-  nameWithType: MemoryFileLocator.WriteAll(IFileLocator)
+  name.vb: WriteAll(IFileLocator)
+  fullName: JeremyAnsel.IO.Locator.MemoryFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator?)
+  fullName.vb: JeremyAnsel.IO.Locator.MemoryFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator)
+  nameWithType: MemoryFileLocator.WriteAll(IFileLocator?)
+  nameWithType.vb: MemoryFileLocator.WriteAll(IFileLocator)
 - uid: JeremyAnsel.IO.Locator.MemoryFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator,System.String)
-  name: WriteAll(IFileLocator, string)
+  name: WriteAll(IFileLocator?, string)
   href: api/JeremyAnsel.IO.Locator.MemoryFileLocator.html#JeremyAnsel_IO_Locator_MemoryFileLocator_WriteAll_JeremyAnsel_IO_Locator_IFileLocator_System_String_
   commentId: M:JeremyAnsel.IO.Locator.MemoryFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator,System.String)
   name.vb: WriteAll(IFileLocator, String)
-  fullName: JeremyAnsel.IO.Locator.MemoryFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator, string)
+  fullName: JeremyAnsel.IO.Locator.MemoryFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator?, string)
   fullName.vb: JeremyAnsel.IO.Locator.MemoryFileLocator.WriteAll(JeremyAnsel.IO.Locator.IFileLocator, String)
-  nameWithType: MemoryFileLocator.WriteAll(IFileLocator, string)
+  nameWithType: MemoryFileLocator.WriteAll(IFileLocator?, string)
   nameWithType.vb: MemoryFileLocator.WriteAll(IFileLocator, String)
 - uid: JeremyAnsel.IO.Locator.MemoryFileLocator.WriteAll*
   name: WriteAll
@@ -386,13 +398,13 @@ references:
   fullName: JeremyAnsel.IO.Locator.WritableFileLocatorFactory
   nameWithType: WritableFileLocatorFactory
 - uid: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.Create(System.String)
-  name: Create(string)
+  name: Create(string?)
   href: api/JeremyAnsel.IO.Locator.WritableFileLocatorFactory.html#JeremyAnsel_IO_Locator_WritableFileLocatorFactory_Create_System_String_
   commentId: M:JeremyAnsel.IO.Locator.WritableFileLocatorFactory.Create(System.String)
   name.vb: Create(String)
-  fullName: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.Create(string)
+  fullName: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.Create(string?)
   fullName.vb: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.Create(String)
-  nameWithType: WritableFileLocatorFactory.Create(string)
+  nameWithType: WritableFileLocatorFactory.Create(string?)
   nameWithType.vb: WritableFileLocatorFactory.Create(String)
 - uid: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.Create*
   name: Create
@@ -402,34 +414,40 @@ references:
   fullName: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.Create
   nameWithType: WritableFileLocatorFactory.Create
 - uid: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.IO.Stream,SharpCompress.Common.ArchiveType)
-  name: CreateArchive(Stream, ArchiveType)
+  name: CreateArchive(Stream?, ArchiveType)
   href: api/JeremyAnsel.IO.Locator.WritableFileLocatorFactory.html#JeremyAnsel_IO_Locator_WritableFileLocatorFactory_CreateArchive_System_IO_Stream_SharpCompress_Common_ArchiveType_
   commentId: M:JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.IO.Stream,SharpCompress.Common.ArchiveType)
-  fullName: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.IO.Stream, SharpCompress.Common.ArchiveType)
-  nameWithType: WritableFileLocatorFactory.CreateArchive(Stream, ArchiveType)
+  name.vb: CreateArchive(Stream, ArchiveType)
+  fullName: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.IO.Stream?, SharpCompress.Common.ArchiveType)
+  fullName.vb: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.IO.Stream, SharpCompress.Common.ArchiveType)
+  nameWithType: WritableFileLocatorFactory.CreateArchive(Stream?, ArchiveType)
+  nameWithType.vb: WritableFileLocatorFactory.CreateArchive(Stream, ArchiveType)
 - uid: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.IO.Stream,SharpCompress.Common.ArchiveType,SharpCompress.Common.CompressionType)
-  name: CreateArchive(Stream, ArchiveType, CompressionType)
+  name: CreateArchive(Stream?, ArchiveType, CompressionType)
   href: api/JeremyAnsel.IO.Locator.WritableFileLocatorFactory.html#JeremyAnsel_IO_Locator_WritableFileLocatorFactory_CreateArchive_System_IO_Stream_SharpCompress_Common_ArchiveType_SharpCompress_Common_CompressionType_
   commentId: M:JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.IO.Stream,SharpCompress.Common.ArchiveType,SharpCompress.Common.CompressionType)
-  fullName: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.IO.Stream, SharpCompress.Common.ArchiveType, SharpCompress.Common.CompressionType)
-  nameWithType: WritableFileLocatorFactory.CreateArchive(Stream, ArchiveType, CompressionType)
+  name.vb: CreateArchive(Stream, ArchiveType, CompressionType)
+  fullName: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.IO.Stream?, SharpCompress.Common.ArchiveType, SharpCompress.Common.CompressionType)
+  fullName.vb: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.IO.Stream, SharpCompress.Common.ArchiveType, SharpCompress.Common.CompressionType)
+  nameWithType: WritableFileLocatorFactory.CreateArchive(Stream?, ArchiveType, CompressionType)
+  nameWithType.vb: WritableFileLocatorFactory.CreateArchive(Stream, ArchiveType, CompressionType)
 - uid: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.String,SharpCompress.Common.ArchiveType)
-  name: CreateArchive(string, ArchiveType)
+  name: CreateArchive(string?, ArchiveType)
   href: api/JeremyAnsel.IO.Locator.WritableFileLocatorFactory.html#JeremyAnsel_IO_Locator_WritableFileLocatorFactory_CreateArchive_System_String_SharpCompress_Common_ArchiveType_
   commentId: M:JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.String,SharpCompress.Common.ArchiveType)
   name.vb: CreateArchive(String, ArchiveType)
-  fullName: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(string, SharpCompress.Common.ArchiveType)
+  fullName: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(string?, SharpCompress.Common.ArchiveType)
   fullName.vb: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(String, SharpCompress.Common.ArchiveType)
-  nameWithType: WritableFileLocatorFactory.CreateArchive(string, ArchiveType)
+  nameWithType: WritableFileLocatorFactory.CreateArchive(string?, ArchiveType)
   nameWithType.vb: WritableFileLocatorFactory.CreateArchive(String, ArchiveType)
 - uid: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.String,SharpCompress.Common.ArchiveType,SharpCompress.Common.CompressionType)
-  name: CreateArchive(string, ArchiveType, CompressionType)
+  name: CreateArchive(string?, ArchiveType, CompressionType)
   href: api/JeremyAnsel.IO.Locator.WritableFileLocatorFactory.html#JeremyAnsel_IO_Locator_WritableFileLocatorFactory_CreateArchive_System_String_SharpCompress_Common_ArchiveType_SharpCompress_Common_CompressionType_
   commentId: M:JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(System.String,SharpCompress.Common.ArchiveType,SharpCompress.Common.CompressionType)
   name.vb: CreateArchive(String, ArchiveType, CompressionType)
-  fullName: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(string, SharpCompress.Common.ArchiveType, SharpCompress.Common.CompressionType)
+  fullName: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(string?, SharpCompress.Common.ArchiveType, SharpCompress.Common.CompressionType)
   fullName.vb: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive(String, SharpCompress.Common.ArchiveType, SharpCompress.Common.CompressionType)
-  nameWithType: WritableFileLocatorFactory.CreateArchive(string, ArchiveType, CompressionType)
+  nameWithType: WritableFileLocatorFactory.CreateArchive(string?, ArchiveType, CompressionType)
   nameWithType.vb: WritableFileLocatorFactory.CreateArchive(String, ArchiveType, CompressionType)
 - uid: JeremyAnsel.IO.Locator.WritableFileLocatorFactory.CreateArchive*
   name: CreateArchive
