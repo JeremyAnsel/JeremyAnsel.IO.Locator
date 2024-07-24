@@ -44,8 +44,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="DiscUtils.Iso9660" Version="0.16.13" />
-    <PackageReference Include="DiscUtils.Udf" Version="0.16.13" />
+    <PackageReference Include="LTRData.DiscUtils.Iso9660" Version="1.0.46" />
+    <PackageReference Include="LTRData.DiscUtils.Udf" Version="1.0.46" />
     <PackageReference Condition="'$(CI)' == 'True'" Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

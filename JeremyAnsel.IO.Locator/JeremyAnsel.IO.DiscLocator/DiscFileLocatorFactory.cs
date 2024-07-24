@@ -19,6 +19,12 @@ namespace JeremyAnsel.IO.DiscLocator
     /// </remarks>
     public static class DiscFileLocatorFactory
     {
+        static DiscFileLocatorFactory()
+        {
+            DiscUtils.Setup.SetupHelper.RegisterAssembly(typeof(DiscUtils.Iso9660.BuildFileInfo).Assembly);
+            DiscUtils.Setup.SetupHelper.RegisterAssembly(typeof(DiscUtils.Udf.UdfReader).Assembly);
+        }
+
         /// <summary>
         /// Creates a disc file locator from a file.
         /// </summary>
