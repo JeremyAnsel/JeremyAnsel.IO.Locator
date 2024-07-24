@@ -221,7 +221,7 @@ var assemblies = [
   {
     "name": "JeremyAnsel.IO.DiscLocator",
     "classes": [
-      { "name": "JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory", "rp": "JeremyAnsel.IO.DiscLocator_DiscFileLocatorFactory.html", "cl": 4, "ucl": 27, "cal": 31, "tl": 135, "cb": 3, "tb": 20, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory", "rp": "JeremyAnsel.IO.DiscLocator_DiscFileLocatorFactory.html", "cl": 7, "ucl": 27, "cal": 34, "tl": 141, "cb": 3, "tb": 20, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "JeremyAnsel.IO.DiscLocator.DiscFsFileLocator", "rp": "JeremyAnsel.IO.DiscLocator_DiscFsFileLocator.html", "cl": 0, "ucl": 33, "cal": 33, "tl": 153, "cb": 0, "tb": 12, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "JeremyAnsel.IO.DiscLocator.IsoFileLocator", "rp": "JeremyAnsel.IO.DiscLocator_IsoFileLocator.html", "cl": 1, "ucl": 6, "cal": 7, "tl": 58, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "JeremyAnsel.IO.DiscLocator.UdfFileLocator", "rp": "JeremyAnsel.IO.DiscLocator_UdfFileLocator.html", "cl": 1, "ucl": 6, "cal": 7, "tl": 58, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
@@ -252,7 +252,7 @@ var riskHotspotMetrics = [
 
 var riskHotspots = [
   {
-    "assembly": "JeremyAnsel.IO.DiscLocator", "class": "JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory", "reportPath": "JeremyAnsel.IO.DiscLocator_DiscFileLocatorFactory.html", "methodName": "Create(JeremyAnsel.IO.Locator.IFileLocator,System.String)", "methodShortName": "Create(...)", "fileIndex": 0, "line": 55,
+    "assembly": "JeremyAnsel.IO.DiscLocator", "class": "JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory", "reportPath": "JeremyAnsel.IO.DiscLocator_DiscFileLocatorFactory.html", "methodName": "Create(JeremyAnsel.IO.Locator.IFileLocator,System.String)", "methodShortName": "Create(...)", "fileIndex": 0, "line": 61,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
@@ -300,7 +300,7 @@ var riskHotspots = [
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "JeremyAnsel.IO.DiscLocator", "class": "JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory", "reportPath": "JeremyAnsel.IO.DiscLocator_DiscFileLocatorFactory.html", "methodName": "Create(System.String)", "methodShortName": "Create(...)", "fileIndex": 0, "line": 29,
+    "assembly": "JeremyAnsel.IO.DiscLocator", "class": "JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory", "reportPath": "JeremyAnsel.IO.DiscLocator_DiscFileLocatorFactory.html", "methodName": "Create(System.String)", "methodShortName": "Create(...)", "fileIndex": 0, "line": 35,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
