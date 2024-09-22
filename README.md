@@ -5,10 +5,10 @@
 ![License](https://img.shields.io/github/license/JeremyAnsel/JeremyAnsel.IO.Locator)
 
 JeremyAnsel.IO.Locator:
-[![NuGet Version](https://buildstats.info/nuget/JeremyAnsel.IO.Locator)](https://www.nuget.org/packages/JeremyAnsel.IO.Locator)
+[![NuGet Version](https://img.shields.io/nuget/v/JeremyAnsel.IO.Locator)](https://www.nuget.org/packages/JeremyAnsel.IO.Locator)
 
 JeremyAnsel.IO.DiscLocator:
-[![NuGet Version](https://buildstats.info/nuget/JeremyAnsel.IO.DiscLocator)](https://www.nuget.org/packages/JeremyAnsel.IO.DiscLocator)
+[![NuGet Version](https://img.shields.io/nuget/v/JeremyAnsel.IO.DiscLocator)](https://www.nuget.org/packages/JeremyAnsel.IO.DiscLocator)
 
 JeremyAnsel.IO.Locator is a .Net library to abstract file access to file system, compressed archives and disc images.
 
