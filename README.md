@@ -33,6 +33,10 @@ The supported formats by `DiscLocatorFactory` are: Iso, Udf.
 ## File locator
 ```csharp
 using IFileLocator factory = FileLocatorFactory.Create(filename);
+
+IEnumerable<string> files = factory.EnumerateFiles();
+
+using Stream file = factory.Open(path);
 ```
 
 ## Disc locator
