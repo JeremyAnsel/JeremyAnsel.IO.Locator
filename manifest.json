@@ -18,7 +18,11 @@
           "relative_path": "api/JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.IO.DiscLocator.DiscFileLocatorFactory.yml\" sourcestartlinenumber=\"1\">A factory to create a disc file locator.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -28,7 +32,11 @@
           "relative_path": "api/JeremyAnsel.IO.DiscLocator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.IO.DiscLocator",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -38,7 +46,11 @@
           "relative_path": "api/JeremyAnsel.IO.Locator.FileLocatorFactory.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.IO.Locator.FileLocatorFactory",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.IO.Locator.FileLocatorFactory.yml\" sourcestartlinenumber=\"1\">A factory to create a file locator.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -48,7 +60,11 @@
           "relative_path": "api/JeremyAnsel.IO.Locator.IFileLocator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.IO.Locator.IFileLocator",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.IO.Locator.IFileLocator.yml\" sourcestartlinenumber=\"1\">The file locator interface.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -58,7 +74,11 @@
           "relative_path": "api/JeremyAnsel.IO.Locator.IWritableFileLocator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.IO.Locator.IWritableFileLocator",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.IO.Locator.IWritableFileLocator.yml\" sourcestartlinenumber=\"1\">The writable file locator interface.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -68,7 +88,11 @@
           "relative_path": "api/JeremyAnsel.IO.Locator.MemoryFileLocator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.IO.Locator.MemoryFileLocator",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.IO.Locator.MemoryFileLocator.yml\" sourcestartlinenumber=\"1\">An in memory file locator.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -78,7 +102,11 @@
           "relative_path": "api/JeremyAnsel.IO.Locator.WritableFileLocatorFactory.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.IO.Locator.WritableFileLocatorFactory",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.IO.Locator.WritableFileLocatorFactory.yml\" sourcestartlinenumber=\"1\">A factory to create a writable file locator.</p>\n<p>\nThe supported formats are: file system, Zip, Tar, GZip.\n</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -88,7 +116,11 @@
           "relative_path": "api/JeremyAnsel.IO.Locator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.IO.Locator",
+      "Summary": null
     },
     {
       "type": "Conceptual",
